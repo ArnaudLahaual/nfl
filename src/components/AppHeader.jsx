@@ -1,6 +1,7 @@
 // components/Header.jsx
 import { Layout, Menu } from "antd";
-import logoNfl from "../assets/nfl-logo.png";
+import logoNfl from "../assets/logos/nfl-logo.png";
+import { Link } from "react-router-dom";
 
 const { Header } = Layout;
 
@@ -21,8 +22,8 @@ export default function AppHeader() {
           className="bg-[#002C66] text-white"
           defaultSelectedKeys={["home"]}
           items={[
-            { key: "home", label: "Accueil" },
-            { key: "teams", label: "Équipes" },
+            { key: "home", label: <Link to="/">Accueil</Link> },
+            { key: "teams", label: <Link to="/teams">Equipes</Link> },
             { key: "confs", label: "Conférences" },
             { key: "rules", label: "Règles" },
             { key: "news", label: "Actualités" },
