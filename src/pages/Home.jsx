@@ -7,9 +7,9 @@ function Home() {
         Explorez les équipes, les joueurs, les règles et toute l’actualité de la
         NFL.
       </p>
-      <button className="bg-blue-600 hover:bg-blue-700 transition px-6 py-3 rounded-lg font-semibold">
+      {/* <button className="bg-blue-600 hover:bg-blue-700 transition px-6 py-3 rounded-lg font-semibold">
         Découvrir les équipes
-      </button>
+      </button> */}
     </main>
   );
 }

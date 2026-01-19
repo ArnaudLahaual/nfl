@@ -1,5 +1,8 @@
-import { configureStore } from '@reduxjs/toolkit'
+import { configureStore } from "@reduxjs/toolkit";
+import teamsReducer from "../Teams/teams.js";
 
 export default configureStore({
-  reducer: {},
-})
+  reducer: {
+    teams: teamsReducer,
+  },
+});

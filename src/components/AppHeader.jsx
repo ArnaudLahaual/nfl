@@ -1,35 +1,37 @@
-// components/Header.jsx
 import { Layout, Menu } from "antd";
 import logoNfl from "../assets/logos/nfl-logo.png";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const { Header } = Layout;
 
 export default function AppHeader() {
+  const location = useLocation();
+
+  const selectedKey =
+    location.pathname === "/" ? "home" : location.pathname.slice(1);
+
+  const menuItems = [
+    { key: "home", label: <Link to="/">Accueil</Link> },
+    { key: "teams", label: <Link to="/teams">Équipes</Link> },
+    { key: "confs", label: <Link to="/confs">Conférences</Link> },
+    { key: "rules", label: <Link to="/rules">Règles</Link> },
+    { key: "news", label: <Link to="/news">Actualités</Link> },
+  ];
+
   return (
-    <Header className="flex items-center px-6 h-16">
+    <Header className="flex items-center px-6 h-20 bg-[#002C66] shadow-md">
       <div className="flex items-center h-full mr-6">
-        <img
-          style={{ width: "100px", height: "50px" }}
-          src={logoNfl}
-          alt="NFL logo"
-        />
+        <img className="h-12 w-auto" src={logoNfl} alt="NFL logo" />
       </div>
 
-      <div className="flex-1 flex justify-center items-center">
-        <Menu
-          mode="horizontal"
-          className="bg-[#002C66] text-white"
-          defaultSelectedKeys={["home"]}
-          items={[
-            { key: "home", label: <Link to="/">Accueil</Link> },
-            { key: "teams", label: <Link to="/teams">Equipes</Link> },
-            { key: "confs", label: "Conférences" },
-            { key: "rules", label: "Règles" },
-            { key: "news", label: "Actualités" },
-          ]}
-        />
-      </div>
+      <Menu
+        mode="horizontal"
+        theme="dark"
+        selectedKeys={[selectedKey]}
+        items={menuItems}
+        className="flex-1 justify-center"
+        style={{ backgroundColor: "#002C66", borderBottom: "none" }}
+      />
     </Header>
   );
 }
