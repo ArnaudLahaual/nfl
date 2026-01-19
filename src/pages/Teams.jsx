@@ -2,8 +2,10 @@ import React from "react";
 import { Input } from "antd";
 import TeamCard from "../components/TeamCard";
 const { Search } = Input;
+import { Select } from "antd";
 
 const onSearch = (value) => console.log(value);
+const { Option } = Select;
 
 export default function Teams() {
   return (
@@ -20,8 +22,25 @@ export default function Teams() {
         />
       </div>
 
+      <div className="flex gap-6 items-center mt-8">
+        {" "}
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+          Voir les équipes sur la map !
+        </button>
+        <Select
+          allowClear
+          placeholder="Trier par conférence"
+          // style={{ width: 150 }}
+          size="large"
+          onChange={(value) => console.log("conférence :", value)}
+        >
+          <Option value="AFC">AFC</Option>
+          <Option value="NFC">NFC</Option>
+        </Select>
+      </div>
+
       {/* équipes */}
-      <div className="mt-12 w-full max-w-6xl">
+      <div className="mt-6 w-full max-w-6xl">
         <TeamCard />
       </div>
     </main>
