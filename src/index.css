@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 
-/* Menu AntD custom
-.ant-menu-item {
+/* Menu AntD custom */
+/* .ant-menu-item {
   color: white !important;
 }
 .ant-menu-item:hover {
