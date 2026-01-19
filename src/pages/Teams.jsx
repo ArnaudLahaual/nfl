@@ -7,7 +7,7 @@ const onSearch = (value) => console.log(value);
 
 export default function Teams() {
   return (
-    <main className="flex flex-col items-center text-center px-4 py-24">
+    <main className="flex flex-col items-center text-center px-4 py-10">
       <h1 className="text-3xl font-bold mb-6">Équipes</h1>
 
       <div className="w-full max-w-md mx-auto">
