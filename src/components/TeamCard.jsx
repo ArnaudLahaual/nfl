@@ -2,13 +2,13 @@ import React from "react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
-export default function TeamCard() {
-  const { teamsList } = useSelector((state) => state.teams);
+export default function TeamCard({ teams }) {
+  // const { teamsList } = useSelector((state) => state.teams);
 
   return (
     <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-6 p-6 rounded-xl shadow-md">
-      {teamsList &&
-        teamsList.map((team) => {
+      {teams &&
+        teams.map((team) => {
           return (
             <div
               key={team.id}

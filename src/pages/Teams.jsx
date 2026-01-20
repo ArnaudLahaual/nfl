@@ -1,13 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { Input } from "antd";
 import TeamCard from "../components/TeamCard";
-const { Search } = Input;
 import { Select } from "antd";
+import { useSelector } from "react-redux";
 
 const onSearch = (value) => console.log(value);
+const { Search } = Input;
 const { Option } = Select;
 
 export default function Teams() {
+  const [searchValue, setSearchValue] = useState("");
+  const [conferenceFilter, setConferenceFilter] = useState(null);
+  const { teamsList } = useSelector((state) => state.teams);
+
+  const filteredTeams = teamsList.filter((team) =>
+    team.name.toLowerCase().includes(searchValue.toLowerCase()),
+  );
+
   return (
     <main className="flex flex-col items-center text-center px-4 py-10">
       <h1 className="text-3xl font-bold mb-6">Équipes</h1>
@@ -15,9 +24,11 @@ export default function Teams() {
       <div className="w-full max-w-md mx-auto">
         <Search
           placeholder="Recherchez une équipe"
-          onSearch={onSearch}
+          value={searchValue}
+          onChange={(e) => setSearchValue(e.target.value)}
           allowClear
           enterButton
+          onSearch={onSearch}
           size="large"
         />
       </div>
@@ -41,7 +52,13 @@ export default function Teams() {
 
       {/* équipes */}
       <div className="mt-6 w-full max-w-6xl">
-        <TeamCard />
+        {filteredTeams.length > 0 ? (
+          <TeamCard teams={filteredTeams} />
+        ) : (
+          <p className="text-white-500 text-center text-lg mt-10">
+            Aucune équipe trouvée
+          </p>
+        )}
       </div>
     </main>
   );
