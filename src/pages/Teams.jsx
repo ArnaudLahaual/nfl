@@ -1,21 +1,28 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Input } from "antd";
 import TeamCard from "../components/TeamCard";
 import { Select } from "antd";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { setSearchValue } from "../redux/Teams/teams";
 
-const onSearch = (value) => console.log(value);
 const { Search } = Input;
 const { Option } = Select;
 
 export default function Teams() {
-  const [searchValue, setSearchValue] = useState("");
   const [conferenceFilter, setConferenceFilter] = useState(null);
-  const { teamsList } = useSelector((state) => state.teams);
+  const { teamsList, searchValue } = useSelector((state) => state.teams);
 
-  const filteredTeams = teamsList.filter((team) =>
-    team.name.toLowerCase().includes(searchValue.toLowerCase()),
+  const dispatch = useDispatch();
+
+  const filteredTeams = teamsList.filter(
+    (team) =>
+      team.name.toLowerCase().includes(searchValue.toLowerCase()) &&
+      (conferenceFilter ? team.conference === conferenceFilter : true),
   );
+
+  useEffect(() => {
+    console.log("conferenceFilter:", conferenceFilter);
+  });
 
   return (
     <main className="flex flex-col items-center text-center px-4 py-10">
@@ -25,10 +32,9 @@ export default function Teams() {
         <Search
           placeholder="Recherchez une équipe"
           value={searchValue}
-          onChange={(e) => setSearchValue(e.target.value)}
+          onChange={(e) => dispatch(setSearchValue(e.target.value))}
           allowClear
           enterButton
-          onSearch={onSearch}
           size="large"
         />
       </div>
@@ -43,7 +49,7 @@ export default function Teams() {
           placeholder="Trier par conférence"
           // style={{ width: 150 }}
           size="large"
-          onChange={(value) => console.log("conférence :", value)}
+          onChange={(value) => setConferenceFilter(value)}
         >
           <Option value="AFC">AFC</Option>
           <Option value="NFC">NFC</Option>

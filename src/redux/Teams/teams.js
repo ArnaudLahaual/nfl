@@ -4,6 +4,7 @@ import { teams as teamsData } from "../../data/team";
 const initialState = {
   teamsList: teamsData,
   search: "",
+  searchValue: "",
 };
 
 const teamsSlice = createSlice({
@@ -13,8 +14,11 @@ const teamsSlice = createSlice({
     setSearch(state, action) {
       state.search = action.payload;
     },
+    setSearchValue(state, action) {
+      state.searchValue = action.payload;
+    },
   },
 });
 
-export const { setSearch } = teamsSlice.actions;
+export const { setSearch, setSearchValue } = teamsSlice.actions;
 export default teamsSlice.reducer;
