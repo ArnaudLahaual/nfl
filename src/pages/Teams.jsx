@@ -20,10 +20,6 @@ export default function Teams() {
       (conferenceFilter ? team.conference === conferenceFilter : true),
   );
 
-  useEffect(() => {
-    console.log("conferenceFilter:", conferenceFilter);
-  });
-
   return (
     <main className="flex flex-col items-center text-center px-4 py-10">
       <h1 className="text-3xl font-bold mb-6">Équipes</h1>

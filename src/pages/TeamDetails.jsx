@@ -33,14 +33,6 @@ export default function TeamDetails() {
         </button>
       </div>
 
-      {/* <div
-        className="w-full h-64 rounded-2xl mb-8 bg-cover bg-center"
-        style={{
-          backgroundImage: `url(${team.wallpaper})`,
-          width: "300px",
-          height: "500px",
-        }}
-      /> */}
       <img
         className="h-32 w-32 object-contain mb-4"
         src={team.logo}
