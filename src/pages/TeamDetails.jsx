@@ -50,7 +50,7 @@ export default function TeamDetails() {
       <p className="max-w-2xl text-center text-lg leading-relaxed">
         {team.name} est une franchise de la ville de {team.city || "N/A"},
         appartenant à la conférence {team.conference}, créée en{" "}
-        {team.creationYear || "N/A"}.
+        {team.creationYear || "Non communiquée"}.
       </p>
 
       {/* SuperBowl */}
@@ -85,12 +85,14 @@ export default function TeamDetails() {
 
         <div className="mt-6">
           <p>
-            {team.name} est en compétition directe avec 3 autres
-            équipes dans la division {team.division}:
-            <DivisionTable
-              conference={team.conference}
-              division={team.division}
-            />
+            {team.name} est en compétition directe avec 3 autres équipes dans la
+            division {team.division} de la conference {team.conference} :
+            <div className="mt-2">
+              <DivisionTable
+                conference={team.conference}
+                division={team.division}
+              />
+            </div>
           </p>
         </div>
       </div>

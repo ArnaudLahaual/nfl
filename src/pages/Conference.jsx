@@ -27,13 +27,16 @@ export default function Conference() {
           {confCode.description}
         </p>
       </div>
-      <div className="px-10 flex flex-col gap-8">
+      <div className="px-10 flex flex-col gap-2">
         {divisions.map((division) => (
-          <DivisionTable
-            key={division}
-            conference={conference}
-            division={division}
-          />
+          <>
+            <h2 className="text-white text-xl font-bold  ">{division}</h2>
+            <DivisionTable
+              key={division}
+              conference={conference}
+              division={division}
+            />
+          </>
         ))}
       </div>
     </main>

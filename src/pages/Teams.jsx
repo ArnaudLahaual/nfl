@@ -10,6 +10,7 @@ const { Option } = Select;
 
 export default function Teams() {
   const [conferenceFilter, setConferenceFilter] = useState(null);
+  const [divisionFilter, setDivisionFilter] = useState(null);
   const { teamsList, searchValue } = useSelector((state) => state.teams);
 
   const dispatch = useDispatch();
@@ -17,7 +18,8 @@ export default function Teams() {
   const filteredTeams = teamsList.filter(
     (team) =>
       team.name.toLowerCase().includes(searchValue.toLowerCase()) &&
-      (conferenceFilter ? team.conference === conferenceFilter : true),
+      (conferenceFilter ? team.conference === conferenceFilter : true) &&
+      (divisionFilter ? team.division === divisionFilter : true),
   );
 
   return (
@@ -43,13 +45,25 @@ export default function Teams() {
         <Select
           allowClear
           placeholder="Trier par conférence"
-          // style={{ width: 150 }}
           size="large"
           onChange={(value) => setConferenceFilter(value)}
         >
           <Option value="AFC">AFC</Option>
           <Option value="NFC">NFC</Option>
         </Select>
+        {conferenceFilter && (
+          <Select
+            allowClear
+            placeholder="Trier par division"
+            size="large"
+            onChange={(value) => setDivisionFilter(value)}
+          >
+            <Option value="North">North</Option>
+            <Option value="West">West</Option>
+            <Option value="East">East</Option>
+            <Option value="South">South</Option>
+          </Select>
+        )}
       </div>
 
       {/* équipes */}

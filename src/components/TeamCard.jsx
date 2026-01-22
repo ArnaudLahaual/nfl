@@ -6,7 +6,8 @@ export default function TeamCard({ teams }) {
   // const { teamsList } = useSelector((state) => state.teams);
 
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-6 p-6 rounded-xl shadow-md">
+    <div className="flex flex-wrap justify-center gap-6 p-6 rounded-xl shadow-md">
+      {" "}
       {teams &&
         teams.map((team) => {
           return (
