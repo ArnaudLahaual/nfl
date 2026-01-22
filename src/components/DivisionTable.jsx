@@ -1,5 +1,5 @@
-import { Table } from "antd";
 import React from "react";
+import { Table } from "antd";
 import { useSelector } from "react-redux";
 
 export default function DivisionTable({ conference, division }) {
@@ -32,22 +32,28 @@ export default function DivisionTable({ conference, division }) {
       key: "division",
     },
     {
-      title: "SuperBowl_Apparence",
+      title: "Appartions SuperBowl",
       dataIndex: "superBowlAppearances",
       key: "superBowlAppearances",
       render: (arr) => arr.length,
     },
     {
-      title: "SuperBowl_Win",
+      title: "Victoires SuperBowl",
       dataIndex: "superBowlWins",
       key: "superBowlWins",
       render: (arr) => arr.length,
     },
   ];
   return (
-    <div className="">
+    <div className="overflow-hidden rounded-xl shadow-lg">
       <h2 className="text-white text-xl font-bold mb-2">{division}</h2>
-      <Table dataSource={filteredTeams} columns={columns} rowKey="id" />
+      <Table
+        dataSource={filteredTeams}
+        columns={columns}
+        pagination={false}
+        rowKey="id"
+        size="small"
+      />
     </div>
   );
 }

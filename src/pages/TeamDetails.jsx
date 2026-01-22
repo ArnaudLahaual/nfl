@@ -2,6 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
 import { ArrowLeftOutlined } from "@ant-design/icons";
+import DivisionTable from "../components/DivisionTable";
 
 export default function TeamDetails() {
   const { teamsList } = useSelector((state) => state.teams);
@@ -81,6 +82,17 @@ export default function TeamDetails() {
             </div>
           </div>
         )}
+
+        <div className="mt-6">
+          <p>
+            {team.name} est en compétition directe avec 3 autres
+            équipes dans la division {team.division}:
+            <DivisionTable
+              conference={team.conference}
+              division={team.division}
+            />
+          </p>
+        </div>
       </div>
     </div>
   );
