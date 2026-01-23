@@ -15,7 +15,7 @@ export default function DivisionTable({ conference, division }) {
 
   const columns = [
     {
-      title: "Logo",
+      title: "",
       dataIndex: "logo",
       key: "logo",
       render: (logo, record) => (
