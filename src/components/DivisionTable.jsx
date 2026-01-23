@@ -58,11 +58,36 @@ export default function DivisionTable({ conference, division }) {
       key: "superBowlWins",
       render: (arr) => arr.length,
     },
+    {
+      title: "Réussite",
+      dataIndex: "successRate",
+      key: "successRate",
+      render: (_, record) => (
+        <p>
+          {record.superBowlAppearances.length === 0
+            ? 0
+            : Math.round(
+                (record.superBowlWins.length /
+                  record.superBowlAppearances.length) *
+                  100,
+              )}
+          %
+        </p>
+      ),
+    },
   ];
 
   const handleFilterData = () => {
     return columns.map((column) => {
-      if (column.dataIndex === "logo" || column.dataIndex === "division") {
+      if (
+        column.dataIndex === "logo" ||
+        column.dataIndex === "division" ||
+        column.dataIndex === "successRate"
+      ) {
+        return column;
+      }
+
+      if (!column.dataIndex) {
         return column;
       }
 
