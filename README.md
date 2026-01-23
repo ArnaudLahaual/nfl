@@ -1,16 +1,31 @@
-# React + Vite
+NFL Project 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Je m’appelle Arnaud et ce projet est une application dédiée à la NFL, réalisée par passion et dans un objectif d’apprentissage.
 
-Currently, two official plugins are available:
+L’application permet de naviguer entre conférences, divisions et équipes, avec des tableaux dynamiques, tris et filtres, le tout dans une interface moderne et responsive.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+=> Stack
 
-## React Compiler
+React
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Redux Toolkit
 
-## Expanding the ESLint configuration
+React Router
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Ant Design
+
+Tailwind CSS
+
+=> Évolutions prévues
+
+Intégration d’un back-end
+
+Base de données
+
+Authentification et profils utilisateurs
+
+Routes sécurisées
+
+Gestion des favoris
+
+=> Projet en développement actif.
