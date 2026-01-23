@@ -8,7 +8,9 @@ export default function DivisionTable({ conference, division }) {
   const { teamsList } = useSelector((state) => state.teams);
 
   const filteredTeams = teamsList.filter(
-    (team) => team.conference === conference && team.division === division,
+    (team) =>
+      team.conference === conference &&
+      (division ? team.division === division : true),
   );
 
   const columns = [
