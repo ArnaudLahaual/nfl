@@ -1,4 +1,3 @@
-// App.jsx
 import { BrowserRouter } from "react-router-dom";
 import AppHeader from "./components/AppHeader";
 import AppRoutes from "./AppRoutes";

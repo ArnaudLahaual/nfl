@@ -79,11 +79,7 @@ export default function DivisionTable({ conference, division }) {
 
   const handleFilterData = () => {
     return columns.map((column) => {
-      if (
-        column.dataIndex === "logo" ||
-        column.dataIndex === "division" ||
-        column.dataIndex === "successRate"
-      ) {
+      if (column.dataIndex === "logo" || column.dataIndex === "successRate") {
         return column;
       }
 

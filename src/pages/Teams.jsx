@@ -4,11 +4,13 @@ import TeamCard from "../components/TeamCard";
 import { Select } from "antd";
 import { useDispatch, useSelector } from "react-redux";
 import { setSearchValue } from "../redux/Teams/teams";
+import { useNavigate } from "react-router-dom";
 
 const { Search } = Input;
 const { Option } = Select;
 
 export default function Teams() {
+  const navigate = useNavigate();
   const [conferenceFilter, setConferenceFilter] = useState(null);
   const [divisionFilter, setDivisionFilter] = useState(null);
   const { teamsList, searchValue } = useSelector((state) => state.teams);
@@ -39,7 +41,10 @@ export default function Teams() {
 
       <div className="flex gap-6 items-center mt-8">
         {" "}
-        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+        <button
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+          onClick={() => navigate("/map")}
+        >
           Voir les équipes sur la map !
         </button>
         <Select

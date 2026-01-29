@@ -1,4 +1,3 @@
-// pages/Home.jsx
 function Home() {
   return (
     <main className="flex flex-col items-center justify-center text-center px-6 py-24">
