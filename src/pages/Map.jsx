@@ -2,16 +2,47 @@ import React from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import Leaflet from "leaflet";
-import icon from "leaflet/dist/images/marker-icon.png";
-import iconShadow from "leaflet/dist/images/marker-shadow.png";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { Segmented, Tooltip } from "antd";
+import { setConferenceFilter } from "../redux/Teams/teams";
 
 export default function Map() {
-  const { teamsList } = useSelector((state) => state.teams);
+  const { teamsList, conferenceFilter } = useSelector((state) => state.teams);
 
+  const filteredTeams =
+    conferenceFilter === null
+      ? teamsList
+      : teamsList.filter((team) => team.conference === conferenceFilter);
+
+  const dispatch = useDispatch();
   return (
-    <div>
+    <div style={{ position: "relative" }}>
       <h1>Carte NFL</h1>
+
+      <div
+        style={{
+          position: "absolute",
+          top: 15,
+          left: "50%",
+          transform: "translateX(-50%)",
+          zIndex: 1000,
+          background: "white",
+          padding: "6px 10px",
+          borderRadius: "12px",
+          boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
+        }}
+      >
+        <Segmented
+          options={[
+            { label: "🏈 Toutes", value: null },
+            { label: "AFC", value: "AFC" },
+            { label: "NFC", value: "NFC" },
+          ]}
+          value={conferenceFilter}
+          onChange={(value) => dispatch(setConferenceFilter(value))}
+        />
+      </div>
+
       {/* carte des usa */}
       <MapContainer
         center={[39.8283, -98.5795]}
@@ -23,7 +54,7 @@ export default function Map() {
           attribution="&copy; OpenStreetMap"
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        {teamsList.map((team) => {
+        {filteredTeams.map((team) => {
           const teamIcon = Leaflet.divIcon({
             className: "custom-marker",
             html: `
@@ -53,7 +84,7 @@ export default function Map() {
 
           return (
             <Marker
-            // icone de chaque équipe
+              // icone de chaque équipe
               key={team.id}
               position={[team.latitude, team.longitude]}
               icon={teamIcon}

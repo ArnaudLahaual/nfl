@@ -3,7 +3,11 @@ import { Input } from "antd";
 import TeamCard from "../components/TeamCard";
 import { Select } from "antd";
 import { useDispatch, useSelector } from "react-redux";
-import { setSearchValue } from "../redux/Teams/teams";
+import {
+  setConferenceFilter,
+  setDivisionFilter,
+  setSearchValue,
+} from "../redux/Teams/teams";
 import { useNavigate } from "react-router-dom";
 
 const { Search } = Input;
@@ -11,9 +15,8 @@ const { Option } = Select;
 
 export default function Teams() {
   const navigate = useNavigate();
-  const [conferenceFilter, setConferenceFilter] = useState(null);
-  const [divisionFilter, setDivisionFilter] = useState(null);
-  const { teamsList, searchValue } = useSelector((state) => state.teams);
+  const { teamsList, searchValue, conferenceFilter, divisionFilter } =
+    useSelector((state) => state.teams);
 
   const dispatch = useDispatch();
 
@@ -51,7 +54,7 @@ export default function Teams() {
           allowClear
           placeholder="Trier par conférence"
           size="large"
-          onChange={(value) => setConferenceFilter(value)}
+          onChange={(value) => dispatch(setConferenceFilter(value))}
         >
           <Option value="AFC">AFC</Option>
           <Option value="NFC">NFC</Option>
@@ -61,7 +64,7 @@ export default function Teams() {
             allowClear
             placeholder="Trier par division"
             size="large"
-            onChange={(value) => setDivisionFilter(value)}
+            onChange={(value) => dispatch(setDivisionFilter(value))}
           >
             <Option value="North">North</Option>
             <Option value="West">West</Option>

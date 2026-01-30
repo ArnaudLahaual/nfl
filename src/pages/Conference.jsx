@@ -1,4 +1,4 @@
-import { Space, Switch, Flex, Radio, Select } from "antd";
+import { Segmented, Select } from "antd";
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
@@ -31,15 +31,14 @@ export default function Conference() {
         </p>
       </div>
       <div className="flex justify-end px-10">
-        <Select
-          allowClear
-          placeholder="Changer vue"
-          size="small"
+        <Segmented
+          options={[
+            { label: "Conférence", value: "conference" },
+            { label: "Divisions", value: "divisions" },
+          ]}
+          value={displayConference}
           onChange={(value) => setDisplayConference(value)}
-        >
-          <Option value="conference">Conférence</Option>
-          <Option value="divisions">Divisions</Option>
-        </Select>
+        />
       </div>
 
       <div className="px-10 flex flex-col gap-2">

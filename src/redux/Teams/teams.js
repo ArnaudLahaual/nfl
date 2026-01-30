@@ -5,6 +5,8 @@ const initialState = {
   teamsList: teamsData,
   search: "",
   searchValue: "",
+  conferenceFilter: null,
+  divisionFilter: null,
 };
 
 const teamsSlice = createSlice({
@@ -17,8 +19,19 @@ const teamsSlice = createSlice({
     setSearchValue(state, action) {
       state.searchValue = action.payload;
     },
+    setConferenceFilter(state, action) {
+      state.conferenceFilter = action.payload;
+    },
+    setDivisionFilter(state, action) {
+      state.divisionFilter = action.payload;
+    },
   },
 });
 
-export const { setSearch, setSearchValue } = teamsSlice.actions;
+export const {
+  setSearch,
+  setSearchValue,
+  setConferenceFilter,
+  setDivisionFilter,
+} = teamsSlice.actions;
 export default teamsSlice.reducer;
