@@ -3,7 +3,7 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import Leaflet from "leaflet";
 import { useDispatch, useSelector } from "react-redux";
-import { Segmented, Tooltip } from "antd";
+import { Segmented } from "antd";
 import { setConferenceFilter } from "../redux/Teams/teams";
 
 export default function Map() {
@@ -22,24 +22,31 @@ export default function Map() {
       <div
         style={{
           position: "absolute",
-          top: 15,
+          top: 16,
           left: "50%",
           transform: "translateX(-50%)",
           zIndex: 1000,
-          background: "white",
-          padding: "6px 10px",
-          borderRadius: "12px",
-          boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
+          backdropFilter: "blur(12px)",
+          background: "rgba(255,255,255,0.75)",
+          padding: "10px 14px",
+          borderRadius: "18px",
+          boxShadow: "0 10px 30px rgba(0,0,0,0.15)",
+          border: "1px solid rgba(255,255,255,0.4)",
+          transition: "all 0.3s ease",
         }}
       >
         <Segmented
           options={[
-            { label: "🏈 Toutes", value: null },
+            { label: "🏈", value: null },
             { label: "AFC", value: "AFC" },
             { label: "NFC", value: "NFC" },
           ]}
           value={conferenceFilter}
           onChange={(value) => dispatch(setConferenceFilter(value))}
+          style={{
+            background: "transparent",
+            fontWeight: 600,
+          }}
         />
       </div>
 
@@ -89,7 +96,7 @@ export default function Map() {
               position={[team.latitude, team.longitude]}
               icon={teamIcon}
             >
-              <Popup maxWidth={300}>
+              <Popup maxWidth={250}>
                 <div style={{ textAlign: "center", minWidth: "250px" }}>
                   <div className="flex items-center text-center gap-3">
                     <img
