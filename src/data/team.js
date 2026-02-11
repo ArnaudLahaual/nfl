@@ -416,7 +416,7 @@ export const teams = [
     latitude: 42.0909,
     longitude: -71.2643,
     superBowlAppearances: [
-      1986, 1997, 2002, 2004, 2005, 2008, 2012, 2015, 2017, 2018, 2019,
+      1986, 1997, 2002, 2004, 2005, 2008, 2012, 2015, 2017, 2018, 2019, 2026
     ],
     superBowlWins: [2002, 2004, 2005, 2015, 2017, 2019],
     successRate: null,
@@ -550,8 +550,8 @@ export const teams = [
     capacity: 68740,
     latitude: 47.5952,
     longitude: -122.3316,
-    superBowlAppearances: [2006, 2014, 2015],
-    superBowlWins: [2014],
+    superBowlAppearances: [2006, 2014, 2015, 2026],
+    superBowlWins: [2014, 2026],
     successRate: null,
     bgColor: "#002244",
   },

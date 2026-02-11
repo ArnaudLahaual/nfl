@@ -13,6 +13,7 @@ export default function AppHeader() {
   const menuItems = [
     { key: "home", label: <Link to="/">Accueil</Link> },
     { key: "teams", label: <Link to="/teams">Équipes</Link> },
+    { key: "players", label: <Link to="/players">Joueurs</Link> },
     { key: "history", label: <Link to="/history">Histoire</Link> },
     { key: "rules", label: <Link to="/rules">Règles</Link> },
     { key: "news", label: <Link to="/news">Actualités</Link> },
