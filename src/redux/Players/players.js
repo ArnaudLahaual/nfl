@@ -1,6 +1,9 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { players as playersData } from "../../data/players";
 
-const initialState = {};
+const initialState = {
+  playersList: playersData,
+};
 
 const teamsSlice = createSlice({
   name: "players",
