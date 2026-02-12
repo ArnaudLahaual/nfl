@@ -9,6 +9,7 @@ import {
   setSearchValue,
 } from "../redux/Teams/teams";
 import { useNavigate } from "react-router-dom";
+import SearchData from "../components/SearchData";
 
 const { Search } = Input;
 const { Option } = Select;
@@ -32,13 +33,10 @@ export default function Teams() {
       <h1 className="text-3xl font-bold mb-6">Équipes</h1>
 
       <div className="w-full max-w-md mx-auto">
-        <Search
-          placeholder="Recherchez une équipe"
-          value={searchValue}
-          onChange={(e) => dispatch(setSearchValue(e.target.value))}
-          allowClear
-          enterButton
-          size="large"
+        <SearchData
+          searchValue={searchValue}
+          setSearchValue={setSearchValue}
+          placeholder={"Recherchez une équipe"}
         />
       </div>
 

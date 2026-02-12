@@ -3,13 +3,18 @@ import { players as playersData } from "../../data/players";
 
 const initialState = {
   playersList: playersData,
+  searchValue: "",
 };
 
 const teamsSlice = createSlice({
   name: "players",
   initialState,
-  reducers: {},
+  reducers: {
+    setSearchValue(state, action) {
+      state.searchValue = action.payload;
+    },
+  },
 });
 
-export const {} = teamsSlice.actions;
+export const { setSearchValue } = teamsSlice.actions;
 export default teamsSlice.reducer;

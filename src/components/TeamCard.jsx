@@ -1,9 +1,7 @@
 import React from "react";
-import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
 export default function TeamCard({ teams }) {
-  // const { teamsList } = useSelector((state) => state.teams);
 
   return (
     <div className="flex flex-wrap justify-center gap-6 p-6 rounded-xl shadow-md">
