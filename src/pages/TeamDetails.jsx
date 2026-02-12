@@ -7,9 +7,7 @@ import PlayerCard from "../components/PlayerCard";
 
 export default function TeamDetails() {
   const { teamsList } = useSelector((state) => state.teams);
-  const { playersList, selectedTeamById } = useSelector(
-    (state) => state.players,
-  );
+  const { playersList } = useSelector((state) => state.players);
 
   const { id } = useParams();
   const navigate = useNavigate();
