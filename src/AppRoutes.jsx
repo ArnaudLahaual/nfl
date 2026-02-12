@@ -7,6 +7,7 @@ import History from "./pages/History";
 import Conference from "./pages/Conference";
 import Map from "./pages/Map";
 import Players from "./pages/Players";
+import PlayerCard from "./components/PlayerCard";
 
 export default function AppRoutes() {
   return (
@@ -17,6 +18,7 @@ export default function AppRoutes() {
       <Route path="/history" element={<History />}></Route>
       <Route path="/conference/:conference" element={<Conference />}></Route>
       <Route path="/players" element={<Players />}></Route>
+      <Route path="/players/:teamId" element={<PlayerCard />} />
       <Route path="/rules" element={<Home />}></Route>
       <Route path="/news" element={<Home />}></Route>
       <Route path="/map" element={<Map />}></Route>

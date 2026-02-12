@@ -3,13 +3,22 @@ import { useSelector } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
 import { ArrowLeftOutlined } from "@ant-design/icons";
 import DivisionTable from "../components/DivisionTable";
+import PlayerCard from "../components/PlayerCard";
 
 export default function TeamDetails() {
   const { teamsList } = useSelector((state) => state.teams);
+  const { playersList, selectedTeamById } = useSelector(
+    (state) => state.players,
+  );
+
   const { id } = useParams();
   const navigate = useNavigate();
 
   const team = teamsList.find((team) => team.id === parseInt(id));
+
+  const playersToDisplay = playersList.filter(
+    (player) => player.teamId === team.id,
+  );
 
   if (!team) {
     return (
@@ -94,6 +103,11 @@ export default function TeamDetails() {
               />
             </div>
           </p>
+
+          <h1 className="text-4xl font-bold mb-4">Joueurs de l'équipe : </h1>
+          <div>
+            <PlayerCard players={playersToDisplay} />
+          </div>
         </div>
       </div>
     </div>

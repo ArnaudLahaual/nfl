@@ -8,6 +8,7 @@ export default function SearchData({
   searchValue,
   setSearchValue,
   placeholder,
+  size,
 }) {
   const dispatch = useDispatch();
 
@@ -19,7 +20,7 @@ export default function SearchData({
         onChange={(e) => dispatch(setSearchValue(e.target.value))}
         allowClear
         enterButton
-        size="large"
+        size={size || "large"}
       />
     </div>
   );
