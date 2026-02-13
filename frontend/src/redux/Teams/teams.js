@@ -1,8 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { teams as teamsData } from "../../data/team";
+// import { teams as teamsData } from "../../data/team";
 
 const initialState = {
-  teamsList: teamsData,
+  teamsList: [],
   search: "",
   searchValue: "",
   conferenceFilter: null,
@@ -13,6 +13,9 @@ const teamsSlice = createSlice({
   name: "teams",
   initialState,
   reducers: {
+    setTeamsList(state, action) {
+      state.teamsList = action.payload;
+    },
     setSearch(state, action) {
       state.search = action.payload;
     },
@@ -29,6 +32,7 @@ const teamsSlice = createSlice({
 });
 
 export const {
+  setTeamsList,
   setSearch,
   setSearchValue,
   setConferenceFilter,
