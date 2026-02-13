@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Team extends Model
 {
+    //appel a la bdd teams
     protected $table = 'teams';
 
     public $timestamps = true;

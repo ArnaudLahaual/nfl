@@ -11,7 +11,6 @@ export const useGet = () => {
     const getTeams = async () => {
       try {
         const resp = await axiosInstance.get("/teams");
-        console.log("resp", resp);
 
         dispatch(setTeamsList(resp.data));
       } catch (err) {

@@ -11,12 +11,13 @@ import {
 import { useNavigate } from "react-router-dom";
 import SearchData from "../components/SearchData";
 import { useGet } from "../hooks/Teams/useGet";
+import SelectData from "../components/SelectData";
 
 const { Search } = Input;
 const { Option } = Select;
 
 export default function Teams() {
-  useGet(); // ✅ récupère + dispatch automatiquement
+  useGet();
 
   const navigate = useNavigate();
   const { teamsList, searchValue, conferenceFilter, divisionFilter } =
@@ -51,27 +52,27 @@ export default function Teams() {
         >
           Voir les équipes sur la map !
         </button>
-        <Select
-          allowClear
+        <SelectData
+          options={[
+            { value: "AFC", label: "AFC" },
+            { value: "NFC", label: "NFC" },
+          ]}
           placeholder="Trier par conférence"
-          size="large"
           onChange={(value) => dispatch(setConferenceFilter(value))}
-        >
-          <Option value="AFC">AFC</Option>
-          <Option value="NFC">NFC</Option>
-        </Select>
+          value={conferenceFilter}
+        />
         {conferenceFilter && (
-          <Select
-            allowClear
+          <SelectData
+            options={[
+              { value: "North", label: "North" },
+              { value: "West", label: "West" },
+              { value: "East", label: "East" },
+              { value: "South", label: "South" },
+            ]}
             placeholder="Trier par division"
-            size="large"
             onChange={(value) => dispatch(setDivisionFilter(value))}
-          >
-            <Option value="North">North</Option>
-            <Option value="West">West</Option>
-            <Option value="East">East</Option>
-            <Option value="South">South</Option>
-          </Select>
+            value={divisionFilter}
+          />
         )}
       </div>
 
