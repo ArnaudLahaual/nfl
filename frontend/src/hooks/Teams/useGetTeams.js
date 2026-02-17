@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 import axiosInstance from "../../api/axiosConfig";
 import { setTeamsList } from "../../redux/Teams/teams";
 
-export const useGet = () => {
+export const useGetTeams = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {

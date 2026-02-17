@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 import { players as playersData } from "../../data/players";
 
 const initialState = {
-  playersList: playersData,
+  playersList: [],
   searchValue: "",
   selectedTeamById: null,
 };
@@ -11,6 +11,9 @@ const teamsSlice = createSlice({
   name: "players",
   initialState,
   reducers: {
+    setPlayersList(state, action) {
+      state.playersList = action.payload;
+    },
     setSearchValue(state, action) {
       state.searchValue = action.payload;
     },
@@ -20,5 +23,6 @@ const teamsSlice = createSlice({
   },
 });
 
-export const { setSearchValue, setSelectedTeamById } = teamsSlice.actions;
+export const { setPlayersList, setSearchValue, setSelectedTeamById } =
+  teamsSlice.actions;
 export default teamsSlice.reducer;

@@ -38,7 +38,7 @@ export default function Players() {
             searchValue={searchValue}
             setSearchValue={setSearchValue}
             placeholder={"Recherchez un joueur"}
-            size='medium'
+            size="medium"
           />
         </div>
 

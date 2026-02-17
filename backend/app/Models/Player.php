@@ -1,0 +1,25 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Player extends Model
+{
+    protected $table = 'players';
+
+    public $timestamps = true;
+
+    protected $fillable = [
+        'id',
+        'firstName',
+        'lastName',
+        'teamId',
+        'position',
+        'field',
+        'birth_date',
+        'college',
+        'draftYear',
+        'draftRound',
+    ];
+}

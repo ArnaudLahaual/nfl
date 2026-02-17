@@ -10,15 +10,12 @@ import {
 } from "../redux/Teams/teams";
 import { useNavigate } from "react-router-dom";
 import SearchData from "../components/SearchData";
-import { useGet } from "../hooks/Teams/useGet";
 import SelectData from "../components/SelectData";
 
 const { Search } = Input;
 const { Option } = Select;
 
 export default function Teams() {
-  useGet();
-
   const navigate = useNavigate();
   const { teamsList, searchValue, conferenceFilter, divisionFilter } =
     useSelector((state) => state.teams);

@@ -2,8 +2,12 @@ import { BrowserRouter } from "react-router-dom";
 import AppHeader from "./components/AppHeader";
 import AppRoutes from "./AppRoutes";
 import ScrollToTop from "./components/ScrollToTop";
+import { useGetTeams } from "./hooks/Teams/useGetTeams";
+import { useGetPlayers } from "./hooks/Players/useGetPlayers";
 
 function App() {
+  useGetTeams();
+  useGetPlayers();
   return (
     <BrowserRouter>
       <ScrollToTop />
