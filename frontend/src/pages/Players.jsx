@@ -20,6 +20,9 @@ export default function Players() {
       .includes(searchValue.toLowerCase()),
   );
 
+  console.log(playersList); // tu dois voir un tableau rempli
+  console.log("Filtered Players:", filteredPlayers);
+
   //filtre des joueurs par équipe
   const playersToDisplay = selectedTeamById
     ? playersList.filter((player) => player.teamId === selectedTeamById)

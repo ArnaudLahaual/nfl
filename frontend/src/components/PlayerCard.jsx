@@ -6,7 +6,7 @@ export default function PlayerCard({ players }) {
 
   return (
     <div className="flex flex-wrap justify-center gap-6">
-      {players.length === 0 || teamsList.length === 0 ? (
+      {players.length === 0 ? (
         <p>Aucun joueurs trouvés...</p>
       ) : (
         players.map((player) => {
@@ -17,7 +17,7 @@ export default function PlayerCard({ players }) {
 
           return (
             <div
-              key={player.id}
+              key={player.id ?? index}
               className="flex flex-col items-center bg-white rounded-xl shadow-md p-1 w-50 hover:scale-105 transition-transform"
             >
               <div className="w-32 h-32 mb-4 flex items-center justify-center">
