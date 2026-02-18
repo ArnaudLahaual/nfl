@@ -11,7 +11,6 @@ class Player extends Model
     public $timestamps = true;
 
     protected $fillable = [
-        'id',
         'firstName',
         'lastName',
         'teamId',

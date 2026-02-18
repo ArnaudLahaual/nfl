@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Player;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
@@ -16,19 +17,16 @@ class PlayersTableSeeder extends Seeder
         $json = file_get_contents(database_path('data/players.json'));
         $players = json_decode($json, true);
 
+        $players = collect($players)->unique(function ($player) {
+            return $player['firstName'] . '-' . $player['lastName'] . '-' . $player['teamId'];
+        });
+
         foreach ($players as $player) {
-            DB::table('players')->insert([
-                'id' => $player['id'],
-                'firstName' => $player['firstName'],
-                'lastName' => $player['lastName'],
-                'teamId' => $player['teamId'],
-                'position' => $player['position'],
-                'field' => $player['field'],
-                'birth_date' => $player['birth_date'],
-                'college' => $player['college'],
-                'draftYear' => $player['draftYear'],
-                'draftRound' => $player['draftRound'],
-            ]);
+            if ($player['birth_date'] === '??-??-??' || str_contains($player['birth_date'], '??')) {
+                $player['birth_date'] = null;
+            }
+
+            Player::create($player);
         }
     }
 }

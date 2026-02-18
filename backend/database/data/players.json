@@ -1,6 +1,5 @@
 [
     {
-        "id": 1,
         "firstName": "Kyler",
         "lastName": "Murray",
         "teamId": 1,
@@ -12,7 +11,6 @@
         "draftRound": 1
     },
     {
-        "id": 2,
         "firstName": "Clayton",
         "lastName": "Tune",
         "teamId": 1,
@@ -24,7 +22,6 @@
         "draftRound": 5
     },
     {
-        "id": 3,
         "firstName": "James",
         "lastName": "Conner",
         "teamId": 1,
@@ -36,7 +33,6 @@
         "draftRound": 3
     },
     {
-        "id": 4,
         "firstName": "Michael",
         "lastName": "Carter",
         "teamId": 1,
@@ -48,7 +44,6 @@
         "draftRound": 4
     },
     {
-        "id": 5,
         "firstName": "Emari",
         "lastName": "Demercado",
         "teamId": 1,
@@ -60,7 +55,6 @@
         "draftRound": 0
     },
     {
-        "id": 6,
         "firstName": "Marvin",
         "lastName": "Harrison Jr.",
         "teamId": 1,
@@ -72,7 +66,6 @@
         "draftRound": 1
     },
     {
-        "id": 7,
         "firstName": "Michael",
         "lastName": "Wilson",
         "teamId": 1,
@@ -84,7 +77,6 @@
         "draftRound": 3
     },
     {
-        "id": 8,
         "firstName": "Greg",
         "lastName": "Dortch",
         "teamId": 1,
@@ -96,7 +88,6 @@
         "draftRound": 0
     },
     {
-        "id": 9,
         "firstName": "Rondale",
         "lastName": "Moore",
         "teamId": 1,
@@ -108,7 +99,6 @@
         "draftRound": 2
     },
     {
-        "id": 10,
         "firstName": "Trey",
         "lastName": "McBride",
         "teamId": 1,
@@ -120,7 +110,6 @@
         "draftRound": 2
     },
     {
-        "id": 11,
         "firstName": "Elijah",
         "lastName": "Higgins",
         "teamId": 1,
@@ -132,7 +121,6 @@
         "draftRound": 6
     },
     {
-        "id": 12,
         "firstName": "Paris",
         "lastName": "Johnson Jr.",
         "teamId": 1,
@@ -144,7 +132,6 @@
         "draftRound": 1
     },
     {
-        "id": 13,
         "firstName": "D.J.",
         "lastName": "Humphries",
         "teamId": 1,
@@ -156,7 +143,6 @@
         "draftRound": 1
     },
     {
-        "id": 14,
         "firstName": "Kelvin",
         "lastName": "Beachum",
         "teamId": 1,
@@ -168,7 +154,6 @@
         "draftRound": 7
     },
     {
-        "id": 15,
         "firstName": "Will",
         "lastName": "Hernandez",
         "teamId": 1,
@@ -180,7 +165,6 @@
         "draftRound": 2
     },
     {
-        "id": 16,
         "firstName": "Hjalte",
         "lastName": "Froholdt",
         "teamId": 1,
@@ -192,7 +176,6 @@
         "draftRound": 4
     },
     {
-        "id": 17,
         "firstName": "Isaiah",
         "lastName": "Adams",
         "teamId": 1,
@@ -204,7 +187,6 @@
         "draftRound": 3
     },
     {
-        "id": 18,
         "firstName": "Jonah",
         "lastName": "Williams",
         "teamId": 1,
@@ -216,7 +198,6 @@
         "draftRound": 1
     },
     {
-        "id": 19,
         "firstName": "Matt",
         "lastName": "Prater",
         "teamId": 1,
@@ -228,7 +209,6 @@
         "draftRound": 0
     },
     {
-        "id": 20,
         "firstName": "Blake",
         "lastName": "Gillikin",
         "teamId": 1,
@@ -240,7 +220,6 @@
         "draftRound": 0
     },
     {
-        "id": 21,
         "firstName": "Aaron",
         "lastName": "Brewer",
         "teamId": 1,
@@ -253,7 +232,6 @@
     },
 
     {
-        "id": 22,
         "firstName": "Budda",
         "lastName": "Baker",
         "teamId": 1,
@@ -265,7 +243,6 @@
         "draftRound": 2
     },
     {
-        "id": 23,
         "firstName": "Jalen",
         "lastName": "Thompson",
         "teamId": 1,
@@ -277,7 +254,6 @@
         "draftRound": 5
     },
     {
-        "id": 24,
         "firstName": "Garrett",
         "lastName": "Williams",
         "teamId": 1,
@@ -289,7 +265,6 @@
         "draftRound": 3
     },
     {
-        "id": 25,
         "firstName": "Marco",
         "lastName": "Wilson",
         "teamId": 1,
@@ -301,7 +276,6 @@
         "draftRound": 4
     },
     {
-        "id": 26,
         "firstName": "Starling",
         "lastName": "Thomas V",
         "teamId": 1,
@@ -313,7 +287,6 @@
         "draftRound": 6
     },
     {
-        "id": 27,
         "firstName": "Zaven",
         "lastName": "Collins",
         "teamId": 1,
@@ -325,7 +298,6 @@
         "draftRound": 1
     },
     {
-        "id": 28,
         "firstName": "Dennis",
         "lastName": "Gardeck",
         "teamId": 1,
@@ -337,7 +309,6 @@
         "draftRound": 0
     },
     {
-        "id": 29,
         "firstName": "Kyzir",
         "lastName": "White",
         "teamId": 1,
@@ -349,7 +320,6 @@
         "draftRound": 4
     },
     {
-        "id": 30,
         "firstName": "Josh",
         "lastName": "Woods",
         "teamId": 1,
@@ -361,7 +331,6 @@
         "draftRound": 0
     },
     {
-        "id": 31,
         "firstName": "Jonathan",
         "lastName": "Ledbetter",
         "teamId": 1,
@@ -373,7 +342,6 @@
         "draftRound": 6
     },
     {
-        "id": 32,
         "firstName": "L.J.",
         "lastName": "Collier",
         "teamId": 1,
@@ -385,7 +353,6 @@
         "draftRound": 1
     },
     {
-        "id": 33,
         "firstName": "Dante",
         "lastName": "Stills",
         "teamId": 1,
@@ -397,7 +364,6 @@
         "draftRound": 6
     },
     {
-        "id": 34,
         "firstName": "Roy",
         "lastName": "Lopez",
         "teamId": 1,
@@ -409,7 +375,6 @@
         "draftRound": 6
     },
     {
-        "id": 35,
         "firstName": "Khyiris",
         "lastName": "Tonga",
         "teamId": 1,
@@ -421,7 +386,6 @@
         "draftRound": 7
     },
     {
-        "id": 36,
         "firstName": "BJ",
         "lastName": "Ojulari",
         "teamId": 1,
@@ -433,7 +397,6 @@
         "draftRound": 2
     },
     {
-        "id": 37,
         "firstName": "Cameron",
         "lastName": "Thomas",
         "teamId": 1,
@@ -445,7 +408,6 @@
         "draftRound": 3
     },
     {
-        "id": 38,
         "firstName": "Victor",
         "lastName": "Dimukeje",
         "teamId": 1,
@@ -457,7 +419,6 @@
         "draftRound": 6
     },
     {
-        "id": 39,
         "firstName": "Rashad",
         "lastName": "Fenton",
         "teamId": 1,
@@ -469,7 +430,6 @@
         "draftRound": 6
     },
     {
-        "id": 40,
         "firstName": "Antonio",
         "lastName": "Hamilton",
         "teamId": 1,
@@ -482,7 +442,6 @@
     },
 
     {
-        "id": 41,
         "firstName": "Ben",
         "lastName": "Niemann",
         "teamId": 1,
@@ -494,7 +453,6 @@
         "draftRound": 0
     },
     {
-        "id": 42,
         "firstName": "Kevin",
         "lastName": "Strong",
         "teamId": 1,
@@ -506,7 +464,6 @@
         "draftRound": 0
     },
     {
-        "id": 43,
         "firstName": "Chris",
         "lastName": "Barnes",
         "teamId": 1,
@@ -518,7 +475,6 @@
         "draftRound": 0
     },
     {
-        "id": 44,
         "firstName": "Andre",
         "lastName": "Chachere",
         "teamId": 1,
@@ -530,7 +486,6 @@
         "draftRound": 0
     },
     {
-        "id": 45,
         "firstName": "Jesse",
         "lastName": "Luketa",
         "teamId": 1,
@@ -543,7 +498,6 @@
     },
 
     {
-        "id": 46,
         "firstName": "Joey",
         "lastName": "Blount",
         "teamId": 1,
@@ -555,7 +509,6 @@
         "draftRound": 0
     },
     {
-        "id": 47,
         "firstName": "Keaontay",
         "lastName": "Ingram",
         "teamId": 1,
@@ -567,7 +520,6 @@
         "draftRound": 6
     },
     {
-        "id": 48,
         "firstName": "Zach",
         "lastName": "Paschal",
         "teamId": 1,
@@ -579,7 +531,6 @@
         "draftRound": 2
     },
     {
-        "id": 49,
         "firstName": "Dennis",
         "lastName": "Daley",
         "teamId": 1,
@@ -591,7 +542,6 @@
         "draftRound": 6
     },
     {
-        "id": 50,
         "firstName": "Trystan",
         "lastName": "Colon",
         "teamId": 1,
@@ -603,7 +553,6 @@
         "draftRound": 0
     },
     {
-        "id": 51,
         "firstName": "Lecitus",
         "lastName": "Smith",
         "teamId": 1,
@@ -615,7 +564,6 @@
         "draftRound": 6
     },
     {
-        "id": 52,
         "firstName": "Jonathan",
         "lastName": "Ward",
         "teamId": 1,
@@ -627,7 +575,6 @@
         "draftRound": 0
     },
     {
-        "id": 53,
         "firstName": "Kris",
         "lastName": "Boyd",
         "teamId": 1,
@@ -637,5 +584,588 @@
         "college": "Texas",
         "draftYear": 2019,
         "draftRound": 7
+    },
+    {
+        "firstName": "Kirk",
+        "lastName": "Cousins",
+        "teamId": 2,
+        "position": "QB",
+        "field": "offense",
+        "birth_date": "1988-08-19",
+        "college": "Michigan State",
+        "draftYear": 2012,
+        "draftRound": 4
+    },
+    {
+        "firstName": "Michael",
+        "lastName": "Penix Jr.",
+        "teamId": 2,
+        "position": "QB",
+        "field": "offense",
+        "birth_date": "2000-05-08",
+        "college": "Washington",
+        "draftYear": 2025,
+        "draftRound": 1
+    },
+    {
+        "firstName": "Bijan",
+        "lastName": "Robinson",
+        "teamId": 2,
+        "position": "RB",
+        "field": "offense",
+        "birth_date": "2002-01-30",
+        "college": "Texas",
+        "draftYear": 2023,
+        "draftRound": 1
+    },
+    {
+        "firstName": "Tyler",
+        "lastName": "Allgeier",
+        "teamId": 2,
+        "position": "RB",
+        "field": "offense",
+        "birth_date": "2000-04-15",
+        "college": "BYU",
+        "draftYear": 2022,
+        "draftRound": 5
+    },
+    {
+        "firstName": "Nathan",
+        "lastName": "Carter",
+        "teamId": 2,
+        "position": "RB",
+        "field": "offense",
+        "birth_date": "2002-05-22",
+        "college": "Michigan State",
+        "draftYear": 2025,
+        "draftRound": 7
+    },
+    {
+        "firstName": "Darnell",
+        "lastName": "Mooney",
+        "teamId": 2,
+        "position": "WR",
+        "field": "offense",
+        "birth_date": "1997-10-29",
+        "college": "Tulane",
+        "draftYear": 2019,
+        "draftRound": 5
+    },
+    {
+        "firstName": "KhaDarel",
+        "lastName": "Hodge",
+        "teamId": 2,
+        "position": "WR",
+        "field": "offense",
+        "birth_date": "1995-01-03",
+        "college": "Prairie View A&M",
+        "draftYear": 2018,
+        "draftRound": 6
+    },
+    {
+        "firstName": "Drake",
+        "lastName": "London",
+        "teamId": 2,
+        "position": "WR",
+        "field": "offense",
+        "birth_date": "2001-07-24",
+        "college": "USC",
+        "draftYear": 2022,
+        "draftRound": 1
+    },
+    {
+        "firstName": "Ray-Ray",
+        "lastName": "McCloud",
+        "teamId": 2,
+        "position": "WR",
+        "field": "offense",
+        "birth_date": "1996-01-14",
+        "college": "Clemson",
+        "draftYear": 2020,
+        "draftRound": 6
+    },
+    {
+        "firstName": "Casey",
+        "lastName": "Washington",
+        "teamId": 2,
+        "position": "WR",
+        "field": "offense",
+        "birth_date": "2000-??-??",
+        "college": "Illinois",
+        "draftYear": 2023,
+        "draftRound": 6
+    },
+    {
+        "firstName": "Kyle",
+        "lastName": "Pitts",
+        "teamId": 2,
+        "position": "TE",
+        "field": "offense",
+        "birth_date": "2000-10-06",
+        "college": "Florida",
+        "draftYear": 2021,
+        "draftRound": 1
+    },
+    {
+        "firstName": "Feleipe",
+        "lastName": "Franks",
+        "teamId": 2,
+        "position": "TE",
+        "field": "offense",
+        "birth_date": "??-??-??",
+        "college": "Florida",
+        "draftYear": 2025,
+        "draftRound": 5
+    },
+    {
+        "firstName": "Teagan",
+        "lastName": "Quitoriano",
+        "teamId": 2,
+        "position": "TE",
+        "field": "offense",
+        "birth_date": "??-??-??",
+        "college": "Oregon State",
+        "draftYear": 2025,
+        "draftRound": 3
+    },
+    {
+        "firstName": "Charlie",
+        "lastName": "Woerner",
+        "teamId": 2,
+        "position": "TE",
+        "field": "offense",
+        "birth_date": "1999-??-??",
+        "college": "Georgia",
+        "draftYear": 2021,
+        "draftRound": 5
+    },
+    {
+        "firstName": "Jovaughn",
+        "lastName": "Gwyn",
+        "teamId": 2,
+        "position": "OL",
+        "field": "offense",
+        "birth_date": "1999-03-18",
+        "college": "South Carolina",
+        "draftYear": 2023,
+        "draftRound": 7
+    },
+    {
+        "firstName": "Chris",
+        "lastName": "Lindstrom",
+        "teamId": 2,
+        "position": "OL",
+        "field": "offense",
+        "birth_date": "1997-01-18",
+        "college": "Boston College",
+        "draftYear": 2021,
+        "draftRound": 1
+    },
+    {
+        "firstName": "Ryan",
+        "lastName": "Neuzil",
+        "teamId": 2,
+        "position": "OL",
+        "field": "offense",
+        "birth_date": "1998-??-??",
+        "college": "Oregon State",
+        "draftYear": 2021,
+        "draftRound": 5
+    },
+    {
+        "firstName": "Matthew",
+        "lastName": "Bergeron",
+        "teamId": 2,
+        "position": "OL",
+        "field": "offense",
+        "birth_date": "1999-??-??",
+        "college": "Syracuse",
+        "draftYear": 2023,
+        "draftRound": 3
+    },
+    {
+        "firstName": "Kyle",
+        "lastName": "Hinton",
+        "teamId": 2,
+        "position": "OL",
+        "field": "offense",
+        "birth_date": "1996-??-??",
+        "college": "Minnesota State",
+        "draftYear": 2021,
+        "draftRound": 5
+    },
+    {
+        "firstName": "Jack",
+        "lastName": "Nelson",
+        "teamId": 2,
+        "position": "OL",
+        "field": "offense",
+        "birth_date": "2002-01-15",
+        "college": "Wisconsin",
+        "draftYear": 2025,
+        "draftRound": 7
+    },
+    {
+        "firstName": "Brandon",
+        "lastName": "Dorlus",
+        "teamId": 2,
+        "position": "DL",
+        "field": "defense",
+        "birth_date": "2000-??-??",
+        "college": "Oregon",
+        "draftYear": 2025,
+        "draftRound": 4
+    },
+    {
+        "firstName": "PlayerFirstName",
+        "lastName": "PlayerLastName",
+        "teamId": 2,
+        "position": "WR",
+        "field": "offense",
+        "birth_date": "2000-??-??",
+        "college": "CollegeName",
+        "draftYear": 2025,
+        "draftRound": 5
+    },
+    {
+        "firstName": "Tyler",
+        "lastName": "Shelvin",
+        "teamId": 2,
+        "position": "DL",
+        "field": "defense",
+        "birth_date": "2000-??-??",
+        "college": "LSU",
+        "draftYear": 2025,
+        "draftRound": 5
+    },
+    {
+        "firstName": "Foyesade",
+        "lastName": "Ola",
+        "teamId": 2,
+        "position": "DL",
+        "field": "defense",
+        "birth_date": "1997-05-27",
+        "college": "Oregon State",
+        "draftYear": 2019,
+        "draftRound": 6
+    },
+    {
+        "firstName": "Grady",
+        "lastName": "Jarrett",
+        "teamId": 2,
+        "position": "DL",
+        "field": "defense",
+        "birth_date": "1995-06-26",
+        "college": "Clemson",
+        "draftYear": 2015,
+        "draftRound": 5
+    },
+    {
+        "firstName": "Deion",
+        "lastName": "Jones",
+        "teamId": 2,
+        "position": "LB",
+        "field": "defense",
+        "birth_date": "1994-09-09",
+        "college": "LSU",
+        "draftYear": 2016,
+        "draftRound": 2
+    },
+    {
+        "firstName": "Foyesade",
+        "lastName": "Ola",
+        "teamId": 2,
+        "position": "LB",
+        "field": "defense",
+        "birth_date": "1997-05-27",
+        "college": "Oregon State",
+        "draftYear": 2019,
+        "draftRound": 6
+    },
+    {
+        "firstName": "Chike",
+        "lastName": "Okeafor",
+        "teamId": 2,
+        "position": "LB",
+        "field": "defense",
+        "birth_date": "2001-??-??",
+        "college": "Notre Dame",
+        "draftYear": 2025,
+        "draftRound": 4
+    },
+    {
+        "firstName": "Mykal",
+        "lastName": "Walker",
+        "teamId": 2,
+        "position": "LB",
+        "field": "defense",
+        "birth_date": "1996-08-25",
+        "college": "Washington",
+        "draftYear": 2019,
+        "draftRound": 4
+    },
+    {
+        "firstName": "Richie",
+        "lastName": "Grant",
+        "teamId": 2,
+        "position": "DB",
+        "field": "defense",
+        "birth_date": "1997-05-28",
+        "college": "UCF",
+        "draftYear": 2021,
+        "draftRound": 3
+    },
+    {
+        "firstName": "AJ",
+        "lastName": "Terrell",
+        "teamId": 2,
+        "position": "DB",
+        "field": "defense",
+        "birth_date": "1998-12-29",
+        "college": "Clemson",
+        "draftYear": 2020,
+        "draftRound": 1
+    },
+    {
+        "firstName": "Jalen",
+        "lastName": "Tabor",
+        "teamId": 2,
+        "position": "DB",
+        "field": "defense",
+        "birth_date": "1995-03-04",
+        "college": "Florida",
+        "draftYear": 2018,
+        "draftRound": 5
+    },
+    {
+        "firstName": "Cameron",
+        "lastName": "Davis",
+        "teamId": 2,
+        "position": "DB",
+        "field": "defense",
+        "birth_date": "2001-??-??",
+        "college": "Mississippi State",
+        "draftYear": 2025,
+        "draftRound": 6
+    },
+    {
+        "firstName": "Chris",
+        "lastName": "Rogers",
+        "teamId": 2,
+        "position": "DB",
+        "field": "defense",
+        "birth_date": "1998-??-??",
+        "college": "Alabama",
+        "draftYear": 2021,
+        "draftRound": 5
+    },
+    {
+        "firstName": "Younghoe",
+        "lastName": "Koo",
+        "teamId": 2,
+        "position": "K",
+        "field": "special_teams",
+        "birth_date": "1994-06-03",
+        "college": "Georgia Tech",
+        "draftYear": 2017,
+        "draftRound": 6
+    },
+    {
+        "firstName": "Arryn",
+        "lastName": "Siposs",
+        "teamId": 2,
+        "position": "P",
+        "field": "special_teams",
+        "birth_date": "1996-04-18",
+        "college": "Eastern Michigan",
+        "draftYear": 2020,
+        "draftRound": 7
+    },
+    {
+        "firstName": "Andre",
+        "lastName": "Roberson",
+        "teamId": 2,
+        "position": "LS",
+        "field": "special_teams",
+        "birth_date": "1995-09-11",
+        "college": "Southern Miss",
+        "draftYear": 2019,
+        "draftRound": 6
+    },
+    {
+        "firstName": "Marcus",
+        "lastName": "Jones",
+        "teamId": 2,
+        "position": "DB",
+        "field": "defense",
+        "birth_date": "1998-01-07",
+        "college": "Houston",
+        "draftYear": 2021,
+        "draftRound": 1
+    },
+    {
+        "firstName": "Jalen",
+        "lastName": "Mayfield",
+        "teamId": 2,
+        "position": "OL",
+        "field": "offense",
+        "birth_date": "1999-03-12",
+        "college": "Michigan",
+        "draftYear": 2021,
+        "draftRound": 2
+    },
+    {
+        "firstName": "AJ",
+        "lastName": "Terrell",
+        "teamId": 2,
+        "position": "DB",
+        "field": "defense",
+        "birth_date": "1998-12-29",
+        "college": "Clemson",
+        "draftYear": 2020,
+        "draftRound": 1
+    },
+    {
+        "firstName": "Chris",
+        "lastName": "Lindstrom",
+        "teamId": 2,
+        "position": "OL",
+        "field": "offense",
+        "birth_date": "1997-01-18",
+        "college": "Boston College",
+        "draftYear": 2021,
+        "draftRound": 1
+    },
+    {
+        "firstName": "Tyler",
+        "lastName": "Allgeier",
+        "teamId": 2,
+        "position": "RB",
+        "field": "offense",
+        "birth_date": "2000-04-15",
+        "college": "BYU",
+        "draftYear": 2022,
+        "draftRound": 5
+    },
+    {
+        "firstName": "Bijan",
+        "lastName": "Robinson",
+        "teamId": 2,
+        "position": "RB",
+        "field": "offense",
+        "birth_date": "2002-01-30",
+        "college": "Texas",
+        "draftYear": 2023,
+        "draftRound": 1
+    },
+    {
+        "firstName": "Drake",
+        "lastName": "London",
+        "teamId": 2,
+        "position": "WR",
+        "field": "offense",
+        "birth_date": "2001-07-24",
+        "college": "USC",
+        "draftYear": 2022,
+        "draftRound": 1
+    },
+    {
+        "firstName": "Kyle",
+        "lastName": "Pitts",
+        "teamId": 2,
+        "position": "TE",
+        "field": "offense",
+        "birth_date": "2000-10-06",
+        "college": "Florida",
+        "draftYear": 2021,
+        "draftRound": 1
+    },
+    {
+        "firstName": "Jack",
+        "lastName": "Nelson",
+        "teamId": 2,
+        "position": "OL",
+        "field": "offense",
+        "birth_date": "2002-01-15",
+        "college": "Wisconsin",
+        "draftYear": 2025,
+        "draftRound": 7
+    },
+    {
+        "firstName": "Matthew",
+        "lastName": "Bergeron",
+        "teamId": 2,
+        "position": "OL",
+        "field": "offense",
+        "birth_date": "1999-??-??",
+        "college": "Syracuse",
+        "draftYear": 2023,
+        "draftRound": 3
+    },
+    {
+        "firstName": "Brandon",
+        "lastName": "Dorlus",
+        "teamId": 2,
+        "position": "DL",
+        "field": "defense",
+        "birth_date": "2000-??-??",
+        "college": "Oregon",
+        "draftYear": 2025,
+        "draftRound": 4
+    },
+    {
+        "firstName": "Grady",
+        "lastName": "Jarrett",
+        "teamId": 2,
+        "position": "DL",
+        "field": "defense",
+        "birth_date": "1995-06-26",
+        "college": "Clemson",
+        "draftYear": 2015,
+        "draftRound": 5
+    },
+    {
+        "firstName": "Younghoe",
+        "lastName": "Koo",
+        "teamId": 2,
+        "position": "K",
+        "field": "special_teams",
+        "birth_date": "1994-06-03",
+        "college": "Georgia Tech",
+        "draftYear": 2017,
+        "draftRound": 6
+    },
+    {
+        "firstName": "Arryn",
+        "lastName": "Siposs",
+        "teamId": 2,
+        "position": "P",
+        "field": "special_teams",
+        "birth_date": "1996-04-18",
+        "college": "Eastern Michigan",
+        "draftYear": 2020,
+        "draftRound": 7
+    },
+    {
+        "firstName": "Andre",
+        "lastName": "Roberson",
+        "teamId": 2,
+        "position": "LS",
+        "field": "special_teams",
+        "birth_date": "1995-09-11",
+        "college": "Southern Miss",
+        "draftYear": 2019,
+        "draftRound": 6
+    },
+    {
+        "firstName": "Marcus",
+        "lastName": "Jones",
+        "teamId": 2,
+        "position": "DB",
+        "field": "defense",
+        "birth_date": "1998-01-07",
+        "college": "Houston",
+        "draftYear": 2021,
+        "draftRound": 1
     }
 ]

@@ -18,7 +18,7 @@ return new class extends Migration
             $table->unsignedBigInteger('teamId');
             $table->string('position');
             $table->string('field');
-            $table->date('birth_date');
+            $table->date('birth_date')->nullable();
             $table->string('college');
             $table->integer('draftYear');
             $table->integer('draftRound');
