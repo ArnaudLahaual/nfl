@@ -1,7 +1,7 @@
 import { Layout, Menu, Tooltip } from "antd";
 import logoNfl from "../assets/logos/nfl-logo.png";
 import { Link, useLocation } from "react-router-dom";
-import { UserOutlined } from "@ant-design/icons";
+import { UserOutlined, LogoutOutlined } from "@ant-design/icons";
 import { useContext } from "react";
 import { AuthContext } from "../context/AuthContext";
 
@@ -9,8 +9,7 @@ const { Header } = Layout;
 
 export default function AppHeader() {
   const location = useLocation();
-  const user = useContext(AuthContext);
-
+  const { user, logout } = useContext(AuthContext);
   const selectedKey =
     location.pathname === "/" ? "home" : location.pathname.slice(1);
 
@@ -39,9 +38,15 @@ export default function AppHeader() {
       <div>
         <Tooltip title="Se connecter">
           {user ? (
-            <UserOutlined className="text-white text-xl mr-6 cursor-pointer" />
+            <div className="flex items-center gap-3 text-white">
+              <UserOutlined className="text-white text-xl mr-6 cursor-pointer" />
+              <span>{user.name}</span>
+              <LogoutOutlined onClick={logout} className="cursor-pointer" />
+            </div>
           ) : (
-            <Link to={"/auth"}></Link>
+            <Link to="/auth">
+              <UserOutlined className="text-white text-xl mr-6 cursor-pointer" />
+            </Link>
           )}
         </Tooltip>
       </div>
