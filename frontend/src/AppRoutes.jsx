@@ -8,6 +8,7 @@ import Conference from "./pages/Conference";
 import Map from "./pages/Map";
 import Players from "./pages/Players";
 import PlayerCard from "./components/PlayerCard";
+import Auth from "./pages/Auth";
 
 export default function AppRoutes() {
   return (
@@ -22,6 +23,7 @@ export default function AppRoutes() {
       <Route path="/rules" element={<Home />}></Route>
       <Route path="/news" element={<Home />}></Route>
       <Route path="/map" element={<Map />}></Route>
+      <Route path="/auth" element={<Auth />}></Route>
     </Routes>
   );
 }

@@ -6,11 +6,14 @@ import { ConfigProvider } from "antd";
 import frFR from "antd/locale/fr_FR";
 import App from "./App";
 import "./index.css";
+import { AuthProvider } from "./context/AuthContext";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Provider store={store}>
     <ConfigProvider locale={frFR}>
-      <App />
+      <AuthProvider>
+        <App />
+      </AuthProvider>
     </ConfigProvider>
   </Provider>,
 );
