@@ -9,6 +9,8 @@ import Map from "./pages/Map";
 import Players from "./pages/Players";
 import PlayerCard from "./components/PlayerCard";
 import Auth from "./pages/Auth";
+import Register from "./pages/Register";
+import Login from "./pages/Login";
 
 export default function AppRoutes() {
   return (
@@ -24,6 +26,8 @@ export default function AppRoutes() {
       <Route path="/news" element={<Home />}></Route>
       <Route path="/map" element={<Map />}></Route>
       <Route path="/auth" element={<Auth />}></Route>
+      <Route path="/login" element={<Login />}></Route>
+      <Route path="/register" element={<Register />}></Route>
     </Routes>
   );
 }
