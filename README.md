@@ -22,7 +22,7 @@ Tailwind CSS
 
 => Évolutions prévues
 
-Authentification et profils utilisateurs
+Authentification et profils utilisateurs via Laravel Breeze et Sanctum pour l'anthentification React/Laravel
 
 Routes sécurisées
 
