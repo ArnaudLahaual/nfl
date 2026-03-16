@@ -3,8 +3,10 @@ import { Form, Input, Button, DatePicker } from "antd";
 import { data, useNavigate } from "react-router-dom";
 import { ArrowLeftOutlined } from "@ant-design/icons";
 import axiosInstance from "../api/axiosConfig";
+import { useSnackbar } from "notistack";
 
 export default function Register() {
+  const { enqueueSnackbar } = useSnackbar();
   const navigate = useNavigate();
 
   const handleValidateForm = (values) => {
@@ -17,9 +19,14 @@ export default function Register() {
       .then((resp) => {
         console.log("user crée:", resp);
         navigate("/login");
+        enqueueSnackbar("Compte crée avec succès!", { variant: "success" });
       })
       .catch((error) => {
         console.log(error);
+        const message =
+          error.response?.data?.message || error.message || "Erreur inconnue";
+
+        enqueueSnackbar(message, { variant: "error" });
       });
   };
 

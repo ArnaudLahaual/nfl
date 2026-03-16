@@ -7,12 +7,22 @@ import frFR from "antd/locale/fr_FR";
 import App from "./App";
 import "./index.css";
 import { AuthProvider } from "./context/AuthContext";
+import { SnackbarProvider } from "notistack";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Provider store={store}>
     <ConfigProvider locale={frFR}>
       <AuthProvider>
-        <App />
+        <SnackbarProvider
+          maxSnack={3}
+          anchorOrigin={{
+            vertical: "top",
+            horizontal: "center",
+          }}
+          autoHideDuration={3000}
+        >
+          <App />
+        </SnackbarProvider>
       </AuthProvider>
     </ConfigProvider>
   </Provider>,

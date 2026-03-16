@@ -10,7 +10,7 @@ class AuthController extends Controller
 {
     public function register(Request $request)
     {
-        // Validation backend
+        // Validation des attributs via le front pour le back
         $request->validate([
             'firstname' => 'required|string|max:255',
             'lastname' => 'required|string|max:255',
@@ -20,7 +20,7 @@ class AuthController extends Controller
             'password' => 'required|min:6'
         ]);
 
-        // Création utilisateur
+        // Création du user vers la bdd
         $user = User::create([
             'name' => $request->firstname . ' ' . $request->lastname,
             'firstname' => $request->firstname,
@@ -31,7 +31,6 @@ class AuthController extends Controller
             'password' => Hash::make($request->password),
         ]);
 
-        // Réponse API
         return response()->json([
             'message' => 'Utilisateur créé avec succès',
             'user' => $user
