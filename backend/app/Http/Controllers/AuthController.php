@@ -36,4 +36,8 @@ class AuthController extends Controller
             'user' => $user
         ], 201);
     }
+
+    public function Login() {
+        // function a mettre pour la connexion du user
+    }
 }
