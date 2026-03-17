@@ -37,7 +37,15 @@ class AuthController extends Controller
         ], 201);
     }
 
-    public function Login() {
-        // function a mettre pour la connexion du user
+    public function login(Request $request)
+    {
+        $request->validate([
+            'email' => 'required|email',
+            'password' => 'required|min:6',
+        ]);
+
+        return response()->json([
+            'message' => 'User trouvé et connecté'
+        ]);
     }
 }

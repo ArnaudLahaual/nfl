@@ -22,13 +22,14 @@ export default function Login() {
           onFinish={onFinish}
         >
           <Form.Item
-            name="username"
-            label="Pseudo"
+            name="email"
+            label="Email"
             rules={[
-              { required: true, message: "Veuillez renseigner votre pseudo" },
+              { type: "email", message: "Email invalide" },
+              { required: true, message: "Veuillez renseigner votre mail" },
             ]}
           >
-            <Input prefix={<UserOutlined />} placeholder="Votre pseudo" />
+            <Input prefix={<UserOutlined />} placeholder="Veuillez renseigner votre mail" />
           </Form.Item>
 
           <Form.Item
