@@ -1,11 +1,31 @@
 import React from "react";
 import { LockOutlined, UserOutlined } from "@ant-design/icons";
 import { Button, Checkbox, Flex, Form, Input } from "antd";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import axiosInstance from "../api/axiosConfig";
+import { enqueueSnackbar } from "notistack";
+import { useDispatch } from "react-redux";
+import { setUser } from "../redux/Log/log";
 
 export default function Login() {
-  const onFinish = (values) => {
-    console.log("values du formulaire: ", values);
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
+
+  const handleLogin = (values) => {
+    axiosInstance
+      .post("/login", values)
+      .then((resp) => {
+        dispatch(setUser(resp.data.user));
+        navigate("/");
+        enqueueSnackbar("Connexion réussie", { variant: "success" });
+      })
+      .catch((error) => {
+        console.log(error);
+        const message =
+          error.response?.data?.message || error.message || "Erreur inconnue";
+
+        enqueueSnackbar(message, { variant: "error" });
+      });
   };
 
   return (
@@ -19,7 +39,7 @@ export default function Login() {
           name="login"
           initialValues={{ remember: true }}
           layout="vertical"
-          onFinish={onFinish}
+          onFinish={handleLogin}
         >
           <Form.Item
             name="email"
@@ -29,7 +49,10 @@ export default function Login() {
               { required: true, message: "Veuillez renseigner votre mail" },
             ]}
           >
-            <Input prefix={<UserOutlined />} placeholder="Veuillez renseigner votre mail" />
+            <Input
+              prefix={<UserOutlined />}
+              placeholder="Veuillez renseigner votre mail"
+            />
           </Form.Item>
 
           <Form.Item
