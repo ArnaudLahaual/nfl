@@ -13,3 +13,10 @@ Route::get('/players', [PlayersController::class, 'index']);
 //post
 Route::post('/register', [AuthController::class, 'register']);
 Route::post('/login', [AuthController::class, 'login']);
+
+//routes middleware accessibles uniquement aux personnes connectées<z
+
+// Route::middleware('auth:sanctum')->get('/user', function(Request $request) {
+//     return $request->user();
+// });
+// Route::middleware('auth:sanctum')->get('/players', [PlayersController::class, 'index']);
