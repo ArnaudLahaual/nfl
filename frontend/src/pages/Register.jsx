@@ -17,7 +17,6 @@ export default function Register() {
     axiosInstance
       .post("/register", data)
       .then((resp) => {
-        console.log("user crée:", resp);
         navigate("/login");
         enqueueSnackbar("Compte crée avec succès!", { variant: "success" });
       })
@@ -54,19 +53,19 @@ export default function Register() {
             className="[&_.ant-form-item]:mb-3"
           >
             <Form.Item
-              name="lastname"
-              label="Nom"
-              rules={[{ required: true, message: "Veuillez entrer votre nom" }]}
-            >
-              <Input size="middle" />
-            </Form.Item>
-
-            <Form.Item
               name="firstname"
               label="Prénom"
               rules={[
                 { required: true, message: "Veuillez entrer votre prénom" },
               ]}
+            >
+              <Input size="middle" />
+            </Form.Item>
+
+            <Form.Item
+              name="lastname"
+              label="Nom"
+              rules={[{ required: true, message: "Veuillez entrer votre nom" }]}
             >
               <Input size="middle" />
             </Form.Item>

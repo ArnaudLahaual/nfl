@@ -11,6 +11,7 @@ import PlayerCard from "./components/PlayerCard";
 import Auth from "./pages/Auth";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
+import Profile from "./pages/Profile";
 
 export default function AppRoutes() {
   return (
@@ -28,6 +29,7 @@ export default function AppRoutes() {
       <Route path="/auth" element={<Auth />}></Route>
       <Route path="/login" element={<Login />}></Route>
       <Route path="/register" element={<Register />}></Route>
+      <Route path="/profile" element={<Profile />}></Route>
     </Routes>
   );
 }
