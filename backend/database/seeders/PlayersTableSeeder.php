@@ -21,12 +21,45 @@ class PlayersTableSeeder extends Seeder
             return $player['firstName'] . '-' . $player['lastName'] . '-' . $player['teamId'];
         });
 
-        foreach ($players as $player) {
-            if ($player['birth_date'] === '??-??-??' || str_contains($player['birth_date'], '??')) {
-                $player['birth_date'] = null;
-            }
+        $positionsMap = [
+            'QB' => 'Quarterback',
+            'RB' => 'Running Back',
+            'WR' => 'Wide Receiver',
+            'TE' => 'Tight End',
+            'OT' => 'Offensive Tackle',
+            'OG' => 'Offensive Guard',
+            'C'  => 'Center',
 
-            Player::create($player);
+            'DE' => 'Defensive End',
+            'DT' => 'Defensive Tackle',
+            'OLB' => 'Outside Linebacker',
+            'LB' => 'Linebacker',
+            'CB' => 'Cornerback',
+            'S'  => 'Safety',
+
+            'K'  => 'Kicker',
+            'P'  => 'Punter',
+            'LS' => 'Long Snapper',
+
+            'OL' => 'Offensive Lineman',
+            'DL' => 'Defensive Lineman',
+            'DB' => 'Defensive Back',
+        ];
+
+        foreach ($players as $player) {
+            $fullPosition = $positionsMap[$player['position']] ?? $player['position'];
+
+            Player::updateOrCreate(
+                [
+                    'firstName' => $player['firstName'],
+                    'lastName'  => $player['lastName'],
+                    'teamId'    => $player['teamId'],
+                ],
+                [
+                    'position'  => $fullPosition,
+                    'field'     => $player['field'],
+                ]
+            );
         }
     }
 }

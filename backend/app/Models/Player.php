@@ -16,9 +16,5 @@ class Player extends Model
         'teamId',
         'position',
         'field',
-        'birth_date',
-        'college',
-        'draftYear',
-        'draftRound',
     ];
 }

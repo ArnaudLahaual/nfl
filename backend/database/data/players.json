@@ -3,1169 +3,533 @@
         "firstName": "Kyler",
         "lastName": "Murray",
         "teamId": 1,
-        "position": "QB",
-        "field": "offense",
-        "birth_date": "1997-08-07",
-        "college": "Oklahoma",
-        "draftYear": 2019,
-        "draftRound": 1
+        "position": "Quarterback",
+        "field": "offense"
     },
     {
         "firstName": "Clayton",
         "lastName": "Tune",
         "teamId": 1,
-        "position": "QB",
-        "field": "offense",
-        "birth_date": "1999-03-15",
-        "college": "Houston",
-        "draftYear": 2023,
-        "draftRound": 5
+        "position": "Quarterback",
+        "field": "offense"
     },
     {
         "firstName": "James",
         "lastName": "Conner",
         "teamId": 1,
-        "position": "RB",
-        "field": "offense",
-        "birth_date": "1995-05-05",
-        "college": "Pittsburgh",
-        "draftYear": 2017,
-        "draftRound": 3
+        "position": "Running Back",
+        "field": "offense"
     },
     {
         "firstName": "Michael",
         "lastName": "Carter",
         "teamId": 1,
-        "position": "RB",
-        "field": "offense",
-        "birth_date": "1999-05-07",
-        "college": "North Carolina",
-        "draftYear": 2021,
-        "draftRound": 4
+        "position": "Running Back",
+        "field": "offense"
     },
     {
         "firstName": "Emari",
         "lastName": "Demercado",
         "teamId": 1,
-        "position": "RB",
-        "field": "offense",
-        "birth_date": "1999-01-20",
-        "college": "TCU",
-        "draftYear": 2023,
-        "draftRound": 0
+        "position": "Running Back",
+        "field": "offense"
     },
     {
         "firstName": "Marvin",
         "lastName": "Harrison Jr.",
         "teamId": 1,
-        "position": "WR",
-        "field": "offense",
-        "birth_date": "2002-08-11",
-        "college": "Ohio State",
-        "draftYear": 2024,
-        "draftRound": 1
+        "position": "Wide Receiver",
+        "field": "offense"
     },
     {
         "firstName": "Michael",
         "lastName": "Wilson",
         "teamId": 1,
-        "position": "WR",
-        "field": "offense",
-        "birth_date": "2000-02-12",
-        "college": "Stanford",
-        "draftYear": 2023,
-        "draftRound": 3
+        "position": "Wide Receiver",
+        "field": "offense"
     },
     {
         "firstName": "Greg",
         "lastName": "Dortch",
         "teamId": 1,
-        "position": "WR",
-        "field": "offense",
-        "birth_date": "1998-05-29",
-        "college": "Wake Forest",
-        "draftYear": 2019,
-        "draftRound": 0
+        "position": "Wide Receiver",
+        "field": "offense"
     },
     {
         "firstName": "Rondale",
         "lastName": "Moore",
         "teamId": 1,
-        "position": "WR",
-        "field": "offense",
-        "birth_date": "2000-06-09",
-        "college": "Purdue",
-        "draftYear": 2021,
-        "draftRound": 2
+        "position": "Wide Receiver",
+        "field": "offense"
     },
     {
         "firstName": "Trey",
         "lastName": "McBride",
         "teamId": 1,
-        "position": "TE",
-        "field": "offense",
-        "birth_date": "1999-11-22",
-        "college": "Colorado State",
-        "draftYear": 2022,
-        "draftRound": 2
+        "position": "Tight End",
+        "field": "offense"
     },
     {
         "firstName": "Elijah",
         "lastName": "Higgins",
         "teamId": 1,
-        "position": "TE",
-        "field": "offense",
-        "birth_date": "2000-01-25",
-        "college": "Stanford",
-        "draftYear": 2023,
-        "draftRound": 6
+        "position": "Tight End",
+        "field": "offense"
     },
     {
         "firstName": "Paris",
         "lastName": "Johnson Jr.",
         "teamId": 1,
-        "position": "OT",
-        "field": "offense",
-        "birth_date": "2001-07-20",
-        "college": "Ohio State",
-        "draftYear": 2023,
-        "draftRound": 1
+        "position": "Offensive Tackle",
+        "field": "offense"
     },
     {
         "firstName": "D.J.",
         "lastName": "Humphries",
         "teamId": 1,
-        "position": "OT",
-        "field": "offense",
-        "birth_date": "1993-12-31",
-        "college": "Florida",
-        "draftYear": 2015,
-        "draftRound": 1
+        "position": "Offensive Tackle",
+        "field": "offense"
     },
     {
         "firstName": "Kelvin",
         "lastName": "Beachum",
         "teamId": 1,
-        "position": "OT",
-        "field": "offense",
-        "birth_date": "1989-06-08",
-        "college": "SMU",
-        "draftYear": 2012,
-        "draftRound": 7
+        "position": "Offensive Tackle",
+        "field": "offense"
     },
     {
         "firstName": "Will",
         "lastName": "Hernandez",
         "teamId": 1,
-        "position": "OG",
-        "field": "offense",
-        "birth_date": "1995-09-02",
-        "college": "UTEP",
-        "draftYear": 2018,
-        "draftRound": 2
+        "position": "Offensive Guard",
+        "field": "offense"
     },
     {
         "firstName": "Hjalte",
         "lastName": "Froholdt",
         "teamId": 1,
-        "position": "C",
-        "field": "offense",
-        "birth_date": "1996-08-20",
-        "college": "Arkansas",
-        "draftYear": 2019,
-        "draftRound": 4
+        "position": "Center",
+        "field": "offense"
     },
     {
         "firstName": "Isaiah",
         "lastName": "Adams",
         "teamId": 1,
-        "position": "OG",
-        "field": "offense",
-        "birth_date": "2000-03-14",
-        "college": "Illinois",
-        "draftYear": 2024,
-        "draftRound": 3
+        "position": "Offensive Guard",
+        "field": "offense"
     },
     {
         "firstName": "Jonah",
         "lastName": "Williams",
         "teamId": 1,
-        "position": "OT",
-        "field": "offense",
-        "birth_date": "1997-11-17",
-        "college": "Alabama",
-        "draftYear": 2019,
-        "draftRound": 1
+        "position": "Offensive Tackle",
+        "field": "offense"
     },
     {
         "firstName": "Matt",
         "lastName": "Prater",
         "teamId": 1,
-        "position": "K",
-        "field": "special_teams",
-        "birth_date": "1984-08-10",
-        "college": "UCF",
-        "draftYear": 2006,
-        "draftRound": 0
+        "position": "Kicker",
+        "field": "special_teams"
     },
     {
         "firstName": "Blake",
         "lastName": "Gillikin",
         "teamId": 1,
-        "position": "P",
-        "field": "special_teams",
-        "birth_date": "1997-07-08",
-        "college": "Penn State",
-        "draftYear": 2021,
-        "draftRound": 0
+        "position": "Punter",
+        "field": "special_teams"
     },
     {
         "firstName": "Aaron",
         "lastName": "Brewer",
         "teamId": 1,
-        "position": "LS",
-        "field": "special_teams",
-        "birth_date": "1990-07-05",
-        "college": "San Diego State",
-        "draftYear": 2012,
-        "draftRound": 0
+        "position": "Long Snapper",
+        "field": "special_teams"
     },
-
     {
         "firstName": "Budda",
         "lastName": "Baker",
         "teamId": 1,
-        "position": "S",
-        "field": "defense",
-        "birth_date": "1996-01-10",
-        "college": "Washington",
-        "draftYear": 2017,
-        "draftRound": 2
+        "position": "Safety",
+        "field": "defense"
     },
     {
         "firstName": "Jalen",
         "lastName": "Thompson",
         "teamId": 1,
-        "position": "S",
-        "field": "defense",
-        "birth_date": "1998-07-18",
-        "college": "Washington State",
-        "draftYear": 2019,
-        "draftRound": 5
+        "position": "Safety",
+        "field": "defense"
     },
     {
         "firstName": "Garrett",
         "lastName": "Williams",
         "teamId": 1,
-        "position": "CB",
-        "field": "defense",
-        "birth_date": "2000-04-15",
-        "college": "Syracuse",
-        "draftYear": 2023,
-        "draftRound": 3
+        "position": "Cornerback",
+        "field": "defense"
     },
     {
         "firstName": "Marco",
         "lastName": "Wilson",
         "teamId": 1,
-        "position": "CB",
-        "field": "defense",
-        "birth_date": "1999-05-12",
-        "college": "Florida",
-        "draftYear": 2021,
-        "draftRound": 4
+        "position": "Cornerback",
+        "field": "defense"
     },
     {
         "firstName": "Starling",
         "lastName": "Thomas V",
         "teamId": 1,
-        "position": "CB",
-        "field": "defense",
-        "birth_date": "2000-01-05",
-        "college": "UAB",
-        "draftYear": 2023,
-        "draftRound": 6
+        "position": "Cornerback",
+        "field": "defense"
     },
     {
         "firstName": "Zaven",
         "lastName": "Collins",
         "teamId": 1,
-        "position": "LB",
-        "field": "defense",
-        "birth_date": "1999-05-19",
-        "college": "Tulsa",
-        "draftYear": 2021,
-        "draftRound": 1
+        "position": "Linebacker",
+        "field": "defense"
     },
     {
         "firstName": "Dennis",
         "lastName": "Gardeck",
         "teamId": 1,
-        "position": "LB",
-        "field": "defense",
-        "birth_date": "1994-08-09",
-        "college": "Sioux Falls",
-        "draftYear": 2018,
-        "draftRound": 0
+        "position": "Linebacker",
+        "field": "defense"
     },
     {
         "firstName": "Kyzir",
         "lastName": "White",
         "teamId": 1,
-        "position": "LB",
-        "field": "defense",
-        "birth_date": "1996-03-24",
-        "college": "West Virginia",
-        "draftYear": 2018,
-        "draftRound": 4
+        "position": "Linebacker",
+        "field": "defense"
     },
     {
         "firstName": "Josh",
         "lastName": "Woods",
         "teamId": 1,
-        "position": "LB",
-        "field": "defense",
-        "birth_date": "1996-07-06",
-        "college": "Maryland",
-        "draftYear": 2018,
-        "draftRound": 0
+        "position": "Linebacker",
+        "field": "defense"
     },
     {
         "firstName": "Jonathan",
         "lastName": "Ledbetter",
         "teamId": 1,
-        "position": "DE",
-        "field": "defense",
-        "birth_date": "1997-09-28",
-        "college": "Georgia",
-        "draftYear": 2019,
-        "draftRound": 6
+        "position": "Defensive End",
+        "field": "defense"
     },
     {
         "firstName": "L.J.",
         "lastName": "Collier",
         "teamId": 1,
-        "position": "DE",
-        "field": "defense",
-        "birth_date": "1995-09-12",
-        "college": "TCU",
-        "draftYear": 2019,
-        "draftRound": 1
+        "position": "Defensive End",
+        "field": "defense"
     },
     {
         "firstName": "Dante",
         "lastName": "Stills",
         "teamId": 1,
-        "position": "DT",
-        "field": "defense",
-        "birth_date": "1999-12-10",
-        "college": "West Virginia",
-        "draftYear": 2023,
-        "draftRound": 6
+        "position": "Defensive Tackle",
+        "field": "defense"
     },
     {
         "firstName": "Roy",
         "lastName": "Lopez",
         "teamId": 1,
-        "position": "DT",
-        "field": "defense",
-        "birth_date": "1997-08-07",
-        "college": "Arizona",
-        "draftYear": 2021,
-        "draftRound": 6
+        "position": "Defensive Tackle",
+        "field": "defense"
     },
     {
         "firstName": "Khyiris",
         "lastName": "Tonga",
         "teamId": 1,
-        "position": "DT",
-        "field": "defense",
-        "birth_date": "1996-07-05",
-        "college": "BYU",
-        "draftYear": 2021,
-        "draftRound": 7
+        "position": "Defensive Tackle",
+        "field": "defense"
     },
     {
         "firstName": "BJ",
         "lastName": "Ojulari",
         "teamId": 1,
-        "position": "OLB",
-        "field": "defense",
-        "birth_date": "2002-04-05",
-        "college": "LSU",
-        "draftYear": 2023,
-        "draftRound": 2
+        "position": "Outside Linebacker",
+        "field": "defense"
     },
     {
         "firstName": "Cameron",
         "lastName": "Thomas",
         "teamId": 1,
-        "position": "DE",
-        "field": "defense",
-        "birth_date": "2000-01-06",
-        "college": "San Diego State",
-        "draftYear": 2022,
-        "draftRound": 3
+        "position": "Defensive End",
+        "field": "defense"
     },
     {
         "firstName": "Victor",
         "lastName": "Dimukeje",
         "teamId": 1,
-        "position": "OLB",
-        "field": "defense",
-        "birth_date": "1999-01-18",
-        "college": "Duke",
-        "draftYear": 2021,
-        "draftRound": 6
+        "position": "Outside Linebacker",
+        "field": "defense"
     },
     {
         "firstName": "Rashad",
         "lastName": "Fenton",
         "teamId": 1,
-        "position": "CB",
-        "field": "defense",
-        "birth_date": "1997-03-21",
-        "college": "South Carolina",
-        "draftYear": 2019,
-        "draftRound": 6
+        "position": "Cornerback",
+        "field": "defense"
     },
     {
         "firstName": "Antonio",
         "lastName": "Hamilton",
         "teamId": 1,
-        "position": "CB",
-        "field": "defense",
-        "birth_date": "1993-01-24",
-        "college": "South Carolina State",
-        "draftYear": 2016,
-        "draftRound": 0
+        "position": "Cornerback",
+        "field": "defense"
     },
 
-    {
-        "firstName": "Ben",
-        "lastName": "Niemann",
-        "teamId": 1,
-        "position": "LB",
-        "field": "defense",
-        "birth_date": "1995-07-27",
-        "college": "Iowa",
-        "draftYear": 2018,
-        "draftRound": 0
-    },
-    {
-        "firstName": "Kevin",
-        "lastName": "Strong",
-        "teamId": 1,
-        "position": "DT",
-        "field": "defense",
-        "birth_date": "1996-06-10",
-        "college": "UTSA",
-        "draftYear": 2019,
-        "draftRound": 0
-    },
-    {
-        "firstName": "Chris",
-        "lastName": "Barnes",
-        "teamId": 1,
-        "position": "LB",
-        "field": "defense",
-        "birth_date": "1998-07-16",
-        "college": "UCLA",
-        "draftYear": 2020,
-        "draftRound": 0
-    },
-    {
-        "firstName": "Andre",
-        "lastName": "Chachere",
-        "teamId": 1,
-        "position": "S",
-        "field": "defense",
-        "birth_date": "1996-05-31",
-        "college": "San Jose State",
-        "draftYear": 2018,
-        "draftRound": 0
-    },
-    {
-        "firstName": "Jesse",
-        "lastName": "Luketa",
-        "teamId": 1,
-        "position": "LB",
-        "field": "defense",
-        "birth_date": "1999-04-15",
-        "college": "Penn State",
-        "draftYear": 2022,
-        "draftRound": 7
-    },
-
-    {
-        "firstName": "Joey",
-        "lastName": "Blount",
-        "teamId": 1,
-        "position": "S",
-        "field": "special_teams",
-        "birth_date": "1998-01-17",
-        "college": "Virginia",
-        "draftYear": 2022,
-        "draftRound": 0
-    },
-    {
-        "firstName": "Keaontay",
-        "lastName": "Ingram",
-        "teamId": 1,
-        "position": "RB",
-        "field": "special_teams",
-        "birth_date": "1999-10-26",
-        "college": "USC",
-        "draftYear": 2022,
-        "draftRound": 6
-    },
-    {
-        "firstName": "Zach",
-        "lastName": "Paschal",
-        "teamId": 1,
-        "position": "WR",
-        "field": "special_teams",
-        "birth_date": "1999-09-03",
-        "college": "Kentucky",
-        "draftYear": 2022,
-        "draftRound": 2
-    },
-    {
-        "firstName": "Dennis",
-        "lastName": "Daley",
-        "teamId": 1,
-        "position": "OT",
-        "field": "offense",
-        "birth_date": "1996-08-22",
-        "college": "South Carolina",
-        "draftYear": 2019,
-        "draftRound": 6
-    },
-    {
-        "firstName": "Trystan",
-        "lastName": "Colon",
-        "teamId": 1,
-        "position": "C",
-        "field": "offense",
-        "birth_date": "1998-03-22",
-        "college": "Missouri",
-        "draftYear": 2020,
-        "draftRound": 0
-    },
-    {
-        "firstName": "Lecitus",
-        "lastName": "Smith",
-        "teamId": 1,
-        "position": "OG",
-        "field": "offense",
-        "birth_date": "1998-11-09",
-        "college": "Virginia Tech",
-        "draftYear": 2022,
-        "draftRound": 6
-    },
-    {
-        "firstName": "Jonathan",
-        "lastName": "Ward",
-        "teamId": 1,
-        "position": "RB",
-        "field": "offense",
-        "birth_date": "1997-09-16",
-        "college": "Central Michigan",
-        "draftYear": 2020,
-        "draftRound": 0
-    },
-    {
-        "firstName": "Kris",
-        "lastName": "Boyd",
-        "teamId": 1,
-        "position": "CB",
-        "field": "special_teams",
-        "birth_date": "1996-09-12",
-        "college": "Texas",
-        "draftYear": 2019,
-        "draftRound": 7
-    },
     {
         "firstName": "Kirk",
         "lastName": "Cousins",
         "teamId": 2,
-        "position": "QB",
-        "field": "offense",
-        "birth_date": "1988-08-19",
-        "college": "Michigan State",
-        "draftYear": 2012,
-        "draftRound": 4
+        "position": "Quarterback",
+        "field": "offense"
     },
     {
         "firstName": "Michael",
         "lastName": "Penix Jr.",
         "teamId": 2,
-        "position": "QB",
-        "field": "offense",
-        "birth_date": "2000-05-08",
-        "college": "Washington",
-        "draftYear": 2025,
-        "draftRound": 1
+        "position": "Quarterback",
+        "field": "offense"
     },
     {
         "firstName": "Bijan",
         "lastName": "Robinson",
         "teamId": 2,
-        "position": "RB",
-        "field": "offense",
-        "birth_date": "2002-01-30",
-        "college": "Texas",
-        "draftYear": 2023,
-        "draftRound": 1
+        "position": "Running Back",
+        "field": "offense"
     },
     {
         "firstName": "Tyler",
         "lastName": "Allgeier",
         "teamId": 2,
-        "position": "RB",
-        "field": "offense",
-        "birth_date": "2000-04-15",
-        "college": "BYU",
-        "draftYear": 2022,
-        "draftRound": 5
+        "position": "Running Back",
+        "field": "offense"
     },
     {
         "firstName": "Nathan",
         "lastName": "Carter",
         "teamId": 2,
-        "position": "RB",
-        "field": "offense",
-        "birth_date": "2002-05-22",
-        "college": "Michigan State",
-        "draftYear": 2025,
-        "draftRound": 7
+        "position": "Running Back",
+        "field": "offense"
     },
     {
         "firstName": "Darnell",
         "lastName": "Mooney",
         "teamId": 2,
-        "position": "WR",
-        "field": "offense",
-        "birth_date": "1997-10-29",
-        "college": "Tulane",
-        "draftYear": 2019,
-        "draftRound": 5
+        "position": "Wide Receiver",
+        "field": "offense"
     },
     {
         "firstName": "KhaDarel",
         "lastName": "Hodge",
         "teamId": 2,
-        "position": "WR",
-        "field": "offense",
-        "birth_date": "1995-01-03",
-        "college": "Prairie View A&M",
-        "draftYear": 2018,
-        "draftRound": 6
+        "position": "Wide Receiver",
+        "field": "offense"
     },
     {
         "firstName": "Drake",
         "lastName": "London",
         "teamId": 2,
-        "position": "WR",
-        "field": "offense",
-        "birth_date": "2001-07-24",
-        "college": "USC",
-        "draftYear": 2022,
-        "draftRound": 1
+        "position": "Wide Receiver",
+        "field": "offense"
     },
     {
         "firstName": "Ray-Ray",
         "lastName": "McCloud",
         "teamId": 2,
-        "position": "WR",
-        "field": "offense",
-        "birth_date": "1996-01-14",
-        "college": "Clemson",
-        "draftYear": 2020,
-        "draftRound": 6
+        "position": "Wide Receiver",
+        "field": "offense"
     },
     {
         "firstName": "Casey",
         "lastName": "Washington",
         "teamId": 2,
-        "position": "WR",
-        "field": "offense",
-        "birth_date": "2000-??-??",
-        "college": "Illinois",
-        "draftYear": 2023,
-        "draftRound": 6
+        "position": "Wide Receiver",
+        "field": "offense"
     },
     {
         "firstName": "Kyle",
         "lastName": "Pitts",
         "teamId": 2,
-        "position": "TE",
-        "field": "offense",
-        "birth_date": "2000-10-06",
-        "college": "Florida",
-        "draftYear": 2021,
-        "draftRound": 1
+        "position": "Tight End",
+        "field": "offense"
     },
     {
         "firstName": "Feleipe",
         "lastName": "Franks",
         "teamId": 2,
-        "position": "TE",
-        "field": "offense",
-        "birth_date": "??-??-??",
-        "college": "Florida",
-        "draftYear": 2025,
-        "draftRound": 5
+        "position": "Tight End",
+        "field": "offense"
     },
     {
         "firstName": "Teagan",
         "lastName": "Quitoriano",
         "teamId": 2,
-        "position": "TE",
-        "field": "offense",
-        "birth_date": "??-??-??",
-        "college": "Oregon State",
-        "draftYear": 2025,
-        "draftRound": 3
+        "position": "Tight End",
+        "field": "offense"
     },
     {
         "firstName": "Charlie",
         "lastName": "Woerner",
         "teamId": 2,
-        "position": "TE",
-        "field": "offense",
-        "birth_date": "1999-??-??",
-        "college": "Georgia",
-        "draftYear": 2021,
-        "draftRound": 5
+        "position": "Tight End",
+        "field": "offense"
     },
     {
         "firstName": "Jovaughn",
         "lastName": "Gwyn",
         "teamId": 2,
-        "position": "OL",
-        "field": "offense",
-        "birth_date": "1999-03-18",
-        "college": "South Carolina",
-        "draftYear": 2023,
-        "draftRound": 7
+        "position": "Offensive Lineman",
+        "field": "offense"
     },
     {
         "firstName": "Chris",
         "lastName": "Lindstrom",
         "teamId": 2,
-        "position": "OL",
-        "field": "offense",
-        "birth_date": "1997-01-18",
-        "college": "Boston College",
-        "draftYear": 2021,
-        "draftRound": 1
+        "position": "Offensive Lineman",
+        "field": "offense"
     },
     {
         "firstName": "Ryan",
         "lastName": "Neuzil",
         "teamId": 2,
-        "position": "OL",
-        "field": "offense",
-        "birth_date": "1998-??-??",
-        "college": "Oregon State",
-        "draftYear": 2021,
-        "draftRound": 5
+        "position": "Offensive Lineman",
+        "field": "offense"
     },
     {
         "firstName": "Matthew",
         "lastName": "Bergeron",
         "teamId": 2,
-        "position": "OL",
-        "field": "offense",
-        "birth_date": "1999-??-??",
-        "college": "Syracuse",
-        "draftYear": 2023,
-        "draftRound": 3
+        "position": "Offensive Lineman",
+        "field": "offense"
     },
     {
         "firstName": "Kyle",
         "lastName": "Hinton",
         "teamId": 2,
-        "position": "OL",
-        "field": "offense",
-        "birth_date": "1996-??-??",
-        "college": "Minnesota State",
-        "draftYear": 2021,
-        "draftRound": 5
+        "position": "Offensive Lineman",
+        "field": "offense"
     },
     {
         "firstName": "Jack",
         "lastName": "Nelson",
         "teamId": 2,
-        "position": "OL",
-        "field": "offense",
-        "birth_date": "2002-01-15",
-        "college": "Wisconsin",
-        "draftYear": 2025,
-        "draftRound": 7
+        "position": "Offensive Lineman",
+        "field": "offense"
     },
     {
         "firstName": "Brandon",
         "lastName": "Dorlus",
         "teamId": 2,
-        "position": "DL",
-        "field": "defense",
-        "birth_date": "2000-??-??",
-        "college": "Oregon",
-        "draftYear": 2025,
-        "draftRound": 4
-    },
-    {
-        "firstName": "PlayerFirstName",
-        "lastName": "PlayerLastName",
-        "teamId": 2,
-        "position": "WR",
-        "field": "offense",
-        "birth_date": "2000-??-??",
-        "college": "CollegeName",
-        "draftYear": 2025,
-        "draftRound": 5
+        "position": "Defensive Lineman",
+        "field": "defense"
     },
     {
         "firstName": "Tyler",
         "lastName": "Shelvin",
         "teamId": 2,
-        "position": "DL",
-        "field": "defense",
-        "birth_date": "2000-??-??",
-        "college": "LSU",
-        "draftYear": 2025,
-        "draftRound": 5
+        "position": "Defensive Lineman",
+        "field": "defense"
     },
     {
         "firstName": "Foyesade",
         "lastName": "Ola",
         "teamId": 2,
-        "position": "DL",
-        "field": "defense",
-        "birth_date": "1997-05-27",
-        "college": "Oregon State",
-        "draftYear": 2019,
-        "draftRound": 6
+        "position": "Defensive Lineman",
+        "field": "defense"
     },
     {
         "firstName": "Grady",
         "lastName": "Jarrett",
         "teamId": 2,
-        "position": "DL",
-        "field": "defense",
-        "birth_date": "1995-06-26",
-        "college": "Clemson",
-        "draftYear": 2015,
-        "draftRound": 5
+        "position": "Defensive Lineman",
+        "field": "defense"
     },
     {
         "firstName": "Deion",
         "lastName": "Jones",
         "teamId": 2,
-        "position": "LB",
-        "field": "defense",
-        "birth_date": "1994-09-09",
-        "college": "LSU",
-        "draftYear": 2016,
-        "draftRound": 2
-    },
-    {
-        "firstName": "Foyesade",
-        "lastName": "Ola",
-        "teamId": 2,
-        "position": "LB",
-        "field": "defense",
-        "birth_date": "1997-05-27",
-        "college": "Oregon State",
-        "draftYear": 2019,
-        "draftRound": 6
+        "position": "Linebacker",
+        "field": "defense"
     },
     {
         "firstName": "Chike",
         "lastName": "Okeafor",
         "teamId": 2,
-        "position": "LB",
-        "field": "defense",
-        "birth_date": "2001-??-??",
-        "college": "Notre Dame",
-        "draftYear": 2025,
-        "draftRound": 4
+        "position": "Linebacker",
+        "field": "defense"
     },
     {
         "firstName": "Mykal",
         "lastName": "Walker",
         "teamId": 2,
-        "position": "LB",
-        "field": "defense",
-        "birth_date": "1996-08-25",
-        "college": "Washington",
-        "draftYear": 2019,
-        "draftRound": 4
+        "position": "Linebacker",
+        "field": "defense"
     },
     {
         "firstName": "Richie",
         "lastName": "Grant",
         "teamId": 2,
-        "position": "DB",
-        "field": "defense",
-        "birth_date": "1997-05-28",
-        "college": "UCF",
-        "draftYear": 2021,
-        "draftRound": 3
+        "position": "Defensive Back",
+        "field": "defense"
     },
     {
         "firstName": "AJ",
         "lastName": "Terrell",
         "teamId": 2,
-        "position": "DB",
-        "field": "defense",
-        "birth_date": "1998-12-29",
-        "college": "Clemson",
-        "draftYear": 2020,
-        "draftRound": 1
+        "position": "Defensive Back",
+        "field": "defense"
     },
     {
         "firstName": "Jalen",
         "lastName": "Tabor",
         "teamId": 2,
-        "position": "DB",
-        "field": "defense",
-        "birth_date": "1995-03-04",
-        "college": "Florida",
-        "draftYear": 2018,
-        "draftRound": 5
+        "position": "Defensive Back",
+        "field": "defense"
     },
     {
         "firstName": "Cameron",
         "lastName": "Davis",
         "teamId": 2,
-        "position": "DB",
-        "field": "defense",
-        "birth_date": "2001-??-??",
-        "college": "Mississippi State",
-        "draftYear": 2025,
-        "draftRound": 6
+        "position": "Defensive Back",
+        "field": "defense"
     },
     {
         "firstName": "Chris",
         "lastName": "Rogers",
         "teamId": 2,
-        "position": "DB",
-        "field": "defense",
-        "birth_date": "1998-??-??",
-        "college": "Alabama",
-        "draftYear": 2021,
-        "draftRound": 5
+        "position": "Defensive Back",
+        "field": "defense"
     },
     {
         "firstName": "Younghoe",
         "lastName": "Koo",
         "teamId": 2,
-        "position": "K",
-        "field": "special_teams",
-        "birth_date": "1994-06-03",
-        "college": "Georgia Tech",
-        "draftYear": 2017,
-        "draftRound": 6
+        "position": "Kicker",
+        "field": "special_teams"
     },
     {
         "firstName": "Arryn",
         "lastName": "Siposs",
         "teamId": 2,
-        "position": "P",
-        "field": "special_teams",
-        "birth_date": "1996-04-18",
-        "college": "Eastern Michigan",
-        "draftYear": 2020,
-        "draftRound": 7
+        "position": "Punter",
+        "field": "special_teams"
     },
     {
         "firstName": "Andre",
         "lastName": "Roberson",
         "teamId": 2,
-        "position": "LS",
-        "field": "special_teams",
-        "birth_date": "1995-09-11",
-        "college": "Southern Miss",
-        "draftYear": 2019,
-        "draftRound": 6
+        "position": "Long Snapper",
+        "field": "special_teams"
     },
     {
         "firstName": "Marcus",
         "lastName": "Jones",
         "teamId": 2,
-        "position": "DB",
-        "field": "defense",
-        "birth_date": "1998-01-07",
-        "college": "Houston",
-        "draftYear": 2021,
-        "draftRound": 1
-    },
-    {
-        "firstName": "Jalen",
-        "lastName": "Mayfield",
-        "teamId": 2,
-        "position": "OL",
-        "field": "offense",
-        "birth_date": "1999-03-12",
-        "college": "Michigan",
-        "draftYear": 2021,
-        "draftRound": 2
-    },
-    {
-        "firstName": "AJ",
-        "lastName": "Terrell",
-        "teamId": 2,
-        "position": "DB",
-        "field": "defense",
-        "birth_date": "1998-12-29",
-        "college": "Clemson",
-        "draftYear": 2020,
-        "draftRound": 1
-    },
-    {
-        "firstName": "Chris",
-        "lastName": "Lindstrom",
-        "teamId": 2,
-        "position": "OL",
-        "field": "offense",
-        "birth_date": "1997-01-18",
-        "college": "Boston College",
-        "draftYear": 2021,
-        "draftRound": 1
-    },
-    {
-        "firstName": "Tyler",
-        "lastName": "Allgeier",
-        "teamId": 2,
-        "position": "RB",
-        "field": "offense",
-        "birth_date": "2000-04-15",
-        "college": "BYU",
-        "draftYear": 2022,
-        "draftRound": 5
-    },
-    {
-        "firstName": "Bijan",
-        "lastName": "Robinson",
-        "teamId": 2,
-        "position": "RB",
-        "field": "offense",
-        "birth_date": "2002-01-30",
-        "college": "Texas",
-        "draftYear": 2023,
-        "draftRound": 1
-    },
-    {
-        "firstName": "Drake",
-        "lastName": "London",
-        "teamId": 2,
-        "position": "WR",
-        "field": "offense",
-        "birth_date": "2001-07-24",
-        "college": "USC",
-        "draftYear": 2022,
-        "draftRound": 1
-    },
-    {
-        "firstName": "Kyle",
-        "lastName": "Pitts",
-        "teamId": 2,
-        "position": "TE",
-        "field": "offense",
-        "birth_date": "2000-10-06",
-        "college": "Florida",
-        "draftYear": 2021,
-        "draftRound": 1
-    },
-    {
-        "firstName": "Jack",
-        "lastName": "Nelson",
-        "teamId": 2,
-        "position": "OL",
-        "field": "offense",
-        "birth_date": "2002-01-15",
-        "college": "Wisconsin",
-        "draftYear": 2025,
-        "draftRound": 7
-    },
-    {
-        "firstName": "Matthew",
-        "lastName": "Bergeron",
-        "teamId": 2,
-        "position": "OL",
-        "field": "offense",
-        "birth_date": "1999-??-??",
-        "college": "Syracuse",
-        "draftYear": 2023,
-        "draftRound": 3
-    },
-    {
-        "firstName": "Brandon",
-        "lastName": "Dorlus",
-        "teamId": 2,
-        "position": "DL",
-        "field": "defense",
-        "birth_date": "2000-??-??",
-        "college": "Oregon",
-        "draftYear": 2025,
-        "draftRound": 4
-    },
-    {
-        "firstName": "Grady",
-        "lastName": "Jarrett",
-        "teamId": 2,
-        "position": "DL",
-        "field": "defense",
-        "birth_date": "1995-06-26",
-        "college": "Clemson",
-        "draftYear": 2015,
-        "draftRound": 5
-    },
-    {
-        "firstName": "Younghoe",
-        "lastName": "Koo",
-        "teamId": 2,
-        "position": "K",
-        "field": "special_teams",
-        "birth_date": "1994-06-03",
-        "college": "Georgia Tech",
-        "draftYear": 2017,
-        "draftRound": 6
-    },
-    {
-        "firstName": "Arryn",
-        "lastName": "Siposs",
-        "teamId": 2,
-        "position": "P",
-        "field": "special_teams",
-        "birth_date": "1996-04-18",
-        "college": "Eastern Michigan",
-        "draftYear": 2020,
-        "draftRound": 7
-    },
-    {
-        "firstName": "Andre",
-        "lastName": "Roberson",
-        "teamId": 2,
-        "position": "LS",
-        "field": "special_teams",
-        "birth_date": "1995-09-11",
-        "college": "Southern Miss",
-        "draftYear": 2019,
-        "draftRound": 6
-    },
-    {
-        "firstName": "Marcus",
-        "lastName": "Jones",
-        "teamId": 2,
-        "position": "DB",
-        "field": "defense",
-        "birth_date": "1998-01-07",
-        "college": "Houston",
-        "draftYear": 2021,
-        "draftRound": 1
+        "position": "Defensive Back",
+        "field": "defense"
     }
 ]
