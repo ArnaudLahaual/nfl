@@ -20,3 +20,4 @@ Route::post('/login', [AuthController::class, 'login']);
 //     return $request->user();
 // });
 // Route::middleware('auth:sanctum')->get('/players', [PlayersController::class, 'index']);
+Route::middleware('auth:sanctum')->post('/addPlayer', [PlayersController::class, 'addPlayer']);
