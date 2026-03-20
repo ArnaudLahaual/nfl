@@ -8,6 +8,7 @@ import { enqueueSnackbar } from "notistack";
 export default function AddPlayerModal({ teamsList, open, onClose }) {
   const { positions, postes } = useSelector((state) => state.players);
   const dispatch = useDispatch();
+  const [form] = Form.useForm();
 
   const handleValidate = (values) => {
     console.log("values", values);
@@ -16,6 +17,7 @@ export default function AddPlayerModal({ teamsList, open, onClose }) {
       .then((resp) => {
         axiosInstance.get("/players").then((resp) => {
           dispatch(setPlayersList(resp.data));
+          form.resetFields();
         });
         enqueueSnackbar("Joueur crée avec succès!", { variant: "success" });
         onClose();
@@ -36,6 +38,7 @@ export default function AddPlayerModal({ teamsList, open, onClose }) {
         footer={null}
       >
         <Form
+          form={form}
           name="register"
           layout="vertical"
           onFinish={handleValidate}
