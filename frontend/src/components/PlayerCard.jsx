@@ -36,11 +36,6 @@ export default function PlayerCard({ players }) {
                 <span className="text-gray-500 text-sm">
                   Equipe sur le terrain: {player.field}
                 </span>
-                <span className="text-gray-500 text-sm">
-                  Age: {player.birth_date} · Draft: {player.draftYear} (Round{" "}
-                  {player.draftRound})
-                </span>
-                <span className="text-gray-400 text-sm">{player.college}</span>
               </div>
             </div>
           );

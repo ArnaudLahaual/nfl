@@ -5,7 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import axiosInstance from "../api/axiosConfig";
 import { enqueueSnackbar } from "notistack";
 import { useDispatch } from "react-redux";
-import { setUser } from "../redux/Log/log";
+import { setToken, setUser } from "../redux/Log/log";
 
 export default function Login() {
   const navigate = useNavigate();
@@ -16,6 +16,11 @@ export default function Login() {
       .post("/login", values)
       .then((resp) => {
         dispatch(setUser(resp.data.user));
+        //garder le token en session
+        localStorage.setItem("token", resp.data.token);
+        //le save dans un redux au cas ou
+        dispatch(setToken(resp.data.token));
+
         navigate("/");
         enqueueSnackbar("Connexion réussie", { variant: "success" });
       })

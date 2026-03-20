@@ -1,14 +1,19 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setSearchValue, setSelectedTeamById } from "../redux/Players/players";
 import SearchData from "../components/SearchData";
 import PlayerCard from "../components/PlayerCard";
-import { Select } from "antd";
+import { PlusOutlined } from "@ant-design/icons";
+import { Select, Button, Modal } from "antd";
+import AddPlayerModal from "../components/AddPlayerModal";
 
 export default function Players() {
+  const [showModal, setShowModal] = useState(false);
   const { playersList, searchValue, selectedTeamById } = useSelector(
     (state) => state.players,
   );
+  const { user } = useSelector((state) => state.log);
+
   const dispatch = useDispatch();
   const { teamsList } = useSelector((state) => state.teams);
   const teams = teamsList.filter((team) => team.id);
@@ -28,6 +33,8 @@ export default function Players() {
   const onChange = (value) => {
     dispatch(setSelectedTeamById(value));
   };
+
+  useEffect(() => {}, [playersToDisplay]);
 
   return (
     <div className="p-6">
@@ -55,8 +62,23 @@ export default function Players() {
             style={{ width: "100%" }}
           />
         </div>
+        {user && (
+          <Button
+            type="primary"
+            shape="circle"
+            icon={<PlusOutlined />}
+            size="large"
+            style={{ position: "fixed", bottom: 30, right: 30 }}
+            onClick={() => setShowModal(true)}
+          />
+        )}
       </div>
       <PlayerCard players={playersToDisplay} />
+      <AddPlayerModal
+        teamsList={teamsList}
+        open={showModal}
+        onClose={() => setShowModal(false)}
+      />
     </div>
   );
 }
