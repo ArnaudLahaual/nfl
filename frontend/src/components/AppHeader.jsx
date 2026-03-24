@@ -60,7 +60,7 @@ export default function AppHeader() {
         className="flex-1 justify-center"
         style={{ backgroundColor: "#002C66", borderBottom: "none" }}
       />
-      <div>
+      <div className="flex itemps-center px-4">
         {user ? (
           <div className="flex items-center gap-3 text-white">
             <Dropdown menu={{ items }}>

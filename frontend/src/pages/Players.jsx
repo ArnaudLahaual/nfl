@@ -4,7 +4,7 @@ import { setSearchValue, setSelectedTeamById } from "../redux/Players/players";
 import SearchData from "../components/SearchData";
 import PlayerCard from "../components/PlayerCard";
 import { PlusOutlined } from "@ant-design/icons";
-import { Select, Button, Modal } from "antd";
+import { Select, Button, Modal, Tooltip } from "antd";
 import AddPlayerModal from "../components/AddPlayerModal";
 
 export default function Players() {
@@ -62,16 +62,19 @@ export default function Players() {
             style={{ width: "100%" }}
           />
         </div>
-        {user && user.role === "admin" && (
-          <Button
-            type="primary"
-            shape="circle"
-            icon={<PlusOutlined />}
-            size="large"
-            style={{ position: "fixed", bottom: 30, right: 30 }}
-            onClick={() => setShowModal(true)}
-          />
-        )}
+
+        <Tooltip title="Ajouter un joueur">
+          {user && user.role === "admin" && (
+            <Button
+              type="primary"
+              shape="circle"
+              icon={<PlusOutlined />}
+              size="large"
+              style={{ position: "fixed", bottom: 30, right: 30 }}
+              onClick={() => setShowModal(true)}
+            />
+          )}
+        </Tooltip>
       </div>
       <PlayerCard players={playersToDisplay} />
       <AddPlayerModal
