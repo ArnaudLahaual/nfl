@@ -62,7 +62,7 @@ export default function Players() {
             style={{ width: "100%" }}
           />
         </div>
-        {user && (
+        {user && user.role === "admin" && (
           <Button
             type="primary"
             shape="circle"

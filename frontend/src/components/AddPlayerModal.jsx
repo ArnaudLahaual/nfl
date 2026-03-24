@@ -49,27 +49,33 @@ export default function AddPlayerModal({ teamsList, open, onClose }) {
             label="Prénom"
             rules={[
               {
-                required: false,
+                required: true,
                 message: "Veuillez entrer le prénom du joueur",
               },
             ]}
           >
-            <Input size="middle" />
+            <Input
+              size="middle"
+              placeholder="Veuillez entrer le prénom du joueur"
+            />
           </Form.Item>
 
           <Form.Item
             name="lastName"
             label="Nom"
             rules={[
-              { required: false, message: "Veuillez entrer le nom du joueur" },
+              { required: true, message: "Veuillez entrer le nom du joueur" },
             ]}
           >
-            <Input size="middle" />
+            <Input
+              size="middle"
+              placeholder="Veuillez entrer le nom du joueur"
+            />
           </Form.Item>
 
           <Form.Item
             name="teamId"
-            label="franchise"
+            label="Franchise"
             rules={[
               {
                 required: true,
@@ -78,6 +84,7 @@ export default function AddPlayerModal({ teamsList, open, onClose }) {
             ]}
           >
             <Select
+              placeholder="Veuillez sélectionner l'équipe"
               options={teamsList.map((team) => ({
                 label: team.name,
                 value: team.id,
@@ -96,6 +103,7 @@ export default function AddPlayerModal({ teamsList, open, onClose }) {
             ]}
           >
             <Select
+              placeholder="Veuillez renseigner le poste du joueur"
               options={postes.map((poste) => ({
                 label: poste,
                 value: poste,
@@ -114,6 +122,7 @@ export default function AddPlayerModal({ teamsList, open, onClose }) {
             ]}
           >
             <Select
+              placeholder="Veuillez renseigner l'équipe sur le terrain"
               options={positions.map((position) => ({
                 label: position,
                 value: position,
